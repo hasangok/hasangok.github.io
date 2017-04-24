@@ -1,5 +1,5 @@
 ---
-layout: video
+layout: videopost
 title: Merhaba dünya!
 date: 2013-04-13 16:11
 author: hasangok
