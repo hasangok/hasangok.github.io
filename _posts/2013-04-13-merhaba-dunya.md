@@ -1,11 +1,12 @@
 ---
-layout: post
+layout: video
 title: Merhaba dünya!
 date: 2013-04-13 16:11
 author: hasangok
 comments: true
 Tags: [Genel, Video, Video]
 Categories: [Genel, Kisisel]
+
 ---
 <iframe width="720" height="405" src="https://www.youtube.com/embed/haibIAXpkz8" frameborder="0" allowfullscreen></iframe>
 
