@@ -1,0 +1,21 @@
+---
+layout: post
+title: JavaScript Object to String
+date: 2013-08-12 14:07
+author: hasangok
+comments: true
+Tags: [Javascript, JavaScript, Object to String]
+---
+<p style="text-align: justify;">JavaScript'te ulaşmaya çalıştığım veriler Object olarak geldiği zaman, alert() ile görmeye çalıştığımda başarılı olamıyorum. Aslında almak istediğim veriyi almış oluyorum ama bunu görüntülemek için string türüne çevirmek gerekiyor. Aşağıdaki fonksiyonu buldum işime yarayan, object'in içinde ne var ne yok görebiliyoruz string'e dönüştürüp.</p>
+<p style="text-align: justify;"></p>
+<pre class="brush: js;">
+function objToString (obj) {
+    var str = '';
+    for (var p in obj) {
+        if (obj.hasOwnProperty(p)) {
+            str += p + '::' + obj[p] + '\n';
+        }
+    }
+    return str;
+}
+</pre>
