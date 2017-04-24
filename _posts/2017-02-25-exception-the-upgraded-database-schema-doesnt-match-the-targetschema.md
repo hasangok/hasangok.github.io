@@ -5,7 +5,6 @@ date: 2017-02-25 21:33
 author: hasangok
 comments: true
 Tags: [SharePoint, SharePoint 2016, SharePoint Management Shell]
-permalink: exception-the-upgraded-database-schema-doesnt-match-the-targetschema-1.html
 ---
 Uzun bir aradan sonra tekrar merhaba. Yeni bir yazı, yeni bir problem ile tekrar sizlerleyim.
 
