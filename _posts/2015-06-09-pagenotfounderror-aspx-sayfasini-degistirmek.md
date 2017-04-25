@@ -10,8 +10,10 @@ Kullanıcı gitmeye çalıştığı sayfaya ulaşamadığında, bu sıkıcı say
 <ol>
 	<li><strong>PowerShell
 </strong>Sharepoint 2013 Management Shell ekranında aşağıdaki satırları çalıştırmak.
-<pre class="lang:ps decode:true  ">$spsite = Get-SPSite "http://sharepoint"
-$spsite.FileNotFoundUrl = "/Pages/404.aspx"</pre>
+```
+$spsite = Get-SPSite "http://sharepoint"
+$spsite.FileNotFoundUrl = "/Pages/404.aspx"
+```
 </li>
 	<li><strong>SharePoint Designer</strong>
 Siteye bağlandığımızda sağ üstteki "<em>Site Options</em>" butonuna basıp "<em>vti_filenotfoundpage</em>" adlı kaydın değerini değiştirmek.
