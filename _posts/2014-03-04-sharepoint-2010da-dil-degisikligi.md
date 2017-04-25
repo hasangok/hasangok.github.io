@@ -19,7 +19,7 @@ function OnSelectionChange(value)
 }
 ```
 ```html
-&lt;a href="javascript:OnSelectionChange(1055)"&gt;Türkçe&lt;/a&gt;
-&lt;a href="javascript:OnSelectionChange(1033)"&gt;English&lt;/a&gt;
+<a href="javascript:OnSelectionChange(1055)">Türkçe</a>
+<a href="javascript:OnSelectionChange(1033)">English</a>
 ```
 İyi çalışmalar.
