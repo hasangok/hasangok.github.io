@@ -7,16 +7,16 @@ comments: true
 Tags: [404, Genel, PageNotFoundError.aspx]
 ---
 Kullanıcı gitmeye çalıştığı sayfaya ulaşamadığında, bu sıkıcı sayfayı göstermek yerine güzel tasarlanmış bir 404 sayfası göstermek isteriz. Bunun için aşağıdaki iki yoldan birini tercih edebiliriz:
-<ol>
-	<li><strong>PowerShell
-</strong>Sharepoint 2013 Management Shell ekranında aşağıdaki satırları çalıştırmak.
+
+1. **PowerShell**:
+Sharepoint 2013 Management Shell ekranında aşağıdaki satırları çalıştırmak.
 ```
 $spsite = Get-SPSite "http://sharepoint"
 $spsite.FileNotFoundUrl = "/Pages/404.aspx"
 ```
-</li>
-	<li><strong>SharePoint Designer</strong>
-Siteye bağlandığımızda sağ üstteki "<em>Site Options</em>" butonuna basıp "<em>vti_filenotfoundpage</em>" adlı kaydın değerini değiştirmek.
-<img class="alignnone size-full wp-image-815" src="http://www.hasangok.com.tr/wp-content/uploads/2015/06/vti_filenotfoundpage.png" alt="vti_filenotfoundpage" width="428" height="373" /></li>
-</ol>
+2. **SharePoint Designer**:
+Siteye bağlandığımızda sağ üstteki "*Site Options*" butonuna basıp "*vti_filenotfoundpage*" adlı kaydın değerini değiştirmek.
+
+![vti_filenotfoundpage](http://www.hasangok.com.tr/wp-content/uploads/2015/06/vti_filenotfoundpage.png "vti_filenotfoundpage")
+
 İyi çalışmalar...
