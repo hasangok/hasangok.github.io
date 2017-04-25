@@ -10,8 +10,11 @@ Tags: [Farklı Kullanıcı Olarak Oturum Aç, SharePoint, Sharepoint 2013, Sign 
 "**C:\Program Files\Common Files\Microsoft Shared\Web Server Extensions\15\TEMPLATE\CONTROLTEMPLATES**" klasörü altında bulunan "*Welcome.ascx*" dosyasını düzenleyip, "*ID_RequestAccess*" üzerine aşağıdaki ifadeyi ekliyoruz:
 
 ```xml
-<SharePoint:MenuItemTemplate runat="server" ID="ID_LoginAsDifferentUser" 
-Text="<%$Resources:wss,personalactions_loginasdifferentuser%>" 
-Description="<%$Resources:wss,personalactions_loginasdifferentuserdescription%>" 
-MenuGroupId="100" Sequence="100" UseShortId="true" />
+<SharePoint:MenuItemTemplate
+    runat="server" ID="ID_LoginAsDifferentUser"
+    Text="<%$Resources:wss,personalactions_loginasdifferentuser%>"
+    Description="<%$Resources:wss,personalactions_loginasdifferentuserdescription%>"
+    MenuGroupId="100"
+    Sequence="100"
+    UseShortId="true" />
 ```
