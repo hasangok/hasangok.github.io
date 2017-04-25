@@ -10,10 +10,12 @@ Bu yazıma, yakın zamanda *Active Directory*'deki kullanıcı profil resimlerin
 En son karşılaştığım ve çözmek zorunda olduğum sorun buydu: *Active Directory*'de tanımlı kullanıcı resimleri, *SharePoint User Profile*'a aktarılmıştı ancak tüm resim URL'leri hatalıydı. Bu yüzden *arama sonuçları* ve *My Site* gibi yerlerde kullanıcıların resimleri yerine çarpı işaretleri görüyorduk. *URL'deki problem ise site adresinden sonra tek bir '/' karakterinin eksik olmasıydı*.
 Profil resimlerinin URL'leri şu şekilde görünüyordu:
 
-```http://sharepointURL/my/mysitesUser PhotosProfile Pictures/...
+```
+http://sharepointURL/my/mysitesUser PhotosProfile Pictures/...
 ```
 Oysa olması gereken URL şu şekildeydi:
-```http://sharepointURL/my/mysites/User PhotosProfile Pictures/...
+```
+http://sharepointURL/my/mysites/User PhotosProfile Pictures/...
 ```
 Aşağıdaki *PowerShell* scriptini çalıştırarak, yukarıda ilk yazdığım formatta olan tüm URL'leri ikinci formata dönüştürmek mümkün oldu. Böylece sorunumuz da çözülmüş oldu.
 ```powershell
