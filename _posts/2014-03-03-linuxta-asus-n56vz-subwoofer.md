@@ -6,10 +6,14 @@ author: hasangok
 comments: true
 Tags: [Asus N56VZ, Bilgisayar, Linux, Subwoofer]
 ---
-<p style="text-align: justify;">Biliyorum, siz de benim gibi bas sesleri almadığınızda dinlediğiniz müzikten zevk alamıyorsunuz ;) O halde Linux kurulu bilgisayarınızda bu mini woofer'ı aktif etmek için şu dosyayı yönetici olarak düzenleyin:</p>
+Biliyorum, siz de benim gibi bas sesleri almadığınızda dinlediğiniz müzikten zevk alamıyorsunuz ;) O halde Linux kurulu bilgisayarınızda bu mini woofer'ı aktif etmek için şu dosyayı yönetici olarak düzenleyin:
 
-<pre class="lang:default decode:true">/etc/modprobe.d/alsa-base.conf</pre>
-<p style="text-align: justify;">Bu dosyanın en alt satırına inip aşağıdaki satırı eklediğimizde, woofer'ımız aktif olacak:</p>
+```
+/etc/modprobe.d/alsa-base.conf
+```
+Bu dosyanın en alt satırına inip aşağıdaki satırı eklediğimizde, woofer'ımız aktif olacak:
 
-<pre class="lang:default decode:true">options snd-hda-intel model=asus-mode4</pre>
-<p style="text-align: justify;">İyi eğlenceler...</p>
+```
+options snd-hda-intel model=asus-mode4
+```
+İyi eğlenceler...

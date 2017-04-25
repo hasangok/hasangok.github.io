@@ -7,8 +7,8 @@ comments: true
 Tags: [Genel, Page Layout, Publishing Page]
 ---
 Kod tarafında bir page layout'tan türeyen publishing page oluştururken başlıktaki hatayı alabiliyoruz. Sebeplerinden bazıları şunlar olabilir:
-<ol>
-	<li>Page Layout içerisindeki <strong>&lt;asp:content&gt;</strong> atiketlerinin <strong>&lt;asp:Content&gt;</strong> olması gerekiyor. Content'in büyük harfle başlaması şart.</li>
-	<li>Page Layout'u bir feature ile deploy ettiysek <strong>&lt;AllUsersWebPart&gt;&lt;/AllUsersWebPart&gt;</strong> içerisinin boş kalmış olması.</li>
-	<li><strong>&lt;AllUsersWebPart&gt;&lt;/AllUsersWebPart&gt;</strong> içerisinde deploy edilen Web Part custom geliştirilmiş ise, beklediği parametrelerin eksik bırakılmış olması.</li>
-</ol>
+
+1. Page Layout içerisindeki **&lt;asp:content&gt;** atiketlerinin **&lt;asp:Content&gt;** olması gerekiyor. Content'in büyük harfle başlaması şart.
+2. Page Layout'u bir feature ile deploy ettiysek **&lt;AllUsersWebPart&gt;&lt;/AllUsersWebPart&gt;** içerisinin boş kalmış olması.
+3. **&lt;AllUsersWebPart&gt;&lt;/AllUsersWebPart&gt;** içerisinde deploy edilen Web Part custom geliştirilmiş ise, beklediği parametrelerin eksik bırakılmış olması.
+

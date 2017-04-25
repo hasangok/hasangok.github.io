@@ -6,4 +6,4 @@ author: hasangok
 comments: true
 Tags: [Çanakkale Şehitleri, Genel, Video]
 ---
-[embed]http://www.youtube.com/watch?v=7jIsEUSMOY4[/embed]
+<iframe width="720" height="405" src="https://www.youtube.com/embed/BgMj6l2-UaU" frameborder="0" allowfullscreen></iframe>

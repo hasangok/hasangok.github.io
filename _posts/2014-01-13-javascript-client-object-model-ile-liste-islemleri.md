@@ -6,11 +6,12 @@ author: hasangok
 comments: true
 Tags: [Client Object Model, JavaScript, Liste İşlemleri, Sharepoint, SharePoint]
 ---
-<p style="text-align: justify;"><img class="alignleft  wp-image-342" alt="SharePoint2010" src="https://raw.githubusercontent.com/hasangok/hasangok.github.io/master/uploads/2013/09/SharePoint2010.jpg" width="122" height="95" />Bu konuyla alakalı detaylıca bir yazı hazırlama düşüncesi çok uzun zamandır aklımda ancak bir türlü gereken vakti ayıramıyorum. O yüzden detayları bir kenara bırakıp, işe girdim gireli belki de en çok kullandığım bu <em>JavaScript</em> liste işlemlerini sizlerle de paylaşmak istedim. Avantaj ve dezavantajlarından <a title="Client Object Model – Avantaj ve Dezavantajlar" href="http://www.hasangok.com.tr/272/client-object-model-avantaj-ve-dezavantajlar.html">burada</a> bahsettiğim konunun kod kısmını aşağıdan görebilir ve kullanabilirsiniz.</p>
-<p style="text-align: justify;"><!--more--></p>
-<p style="text-align: justify;"><strong>Listeye Öge Ekleme:</strong></p>
+![SharePoint2010](https://raw.githubusercontent.com/hasangok/hasangok.github.io/master/uploads/2013/09/SharePoint2010.jpg)
+Bu konuyla alakalı detaylıca bir yazı hazırlama düşüncesi çok uzun zamandır aklımda ancak bir türlü gereken vakti ayıramıyorum. O yüzden detayları bir kenara bırakıp, işe girdim gireli belki de en çok kullandığım bu *JavaScript* liste işlemlerini sizlerle de paylaşmak istedim. Avantaj ve dezavantajlarından [burada](http://www.hasangok.com.tr/272/client-object-model-avantaj-ve-dezavantajlar.html) bahsettiğim konunun kod kısmını aşağıdan görebilir ve kullanabilirsiniz.
 
-<pre class="lang:default decode:true">var myContext = new SP.ClientContext.get_current();
+**Listeye Öge Ekleme:**
+```javascript
+var myContext = new SP.ClientContext.get_current();
 var myWeb = myContext.get_web();
 var myList = myWeb.get_lists().getByTitle('ListeAdı');
 var myListItemCreationInfo = new SP.ListItemCreationInformation();
@@ -26,10 +27,12 @@ function AddNewItemFail(sender, args) {
 }
 function AddNewItemSuccess(sender, args) {
    alert('Yeni öge başarıyla eklendi.');
-}</pre>
-<p style="text-align: justify;"><strong>Liste Ögelerine Ulaşma:</strong></p>
+}
+```
+**Liste Ögelerine Ulaşma:**
 
-<pre class="lang:default decode:true">ExecuteOrDelayUntilScriptLoaded(function () {
+```javascript
+ExecuteOrDelayUntilScriptLoaded(function () {
    var context = new SP.ClientContext.get_current();
    var web = context.get_web();
    var list = web.get_lists().getByTitle('ListeAdı');
@@ -52,10 +55,12 @@ function GetItemsSuccess() {
 
 function GetItemsFailed(sender, args) {
    alert("Ögelere ulaşılamadı: " + args.get_message());
-}</pre>
-<p style="text-align: justify;"><strong>Liste Ögesini Güncelleme:</strong></p>
+}
+```
+**Liste Ögesini Güncelleme:**
 
-<pre class="lang:default decode:true">var myContext = new SP.ClientContext.get_current();
+```javascript
+var myContext = new SP.ClientContext.get_current();
 var myWeb = myContext.get_web();
 var myList = myWeb.get_lists().getByTitle('ListeAdı');
 var myListItem = myList.getItemById(2014);
@@ -70,10 +75,12 @@ function UpdateItemFail(sender, args) {
 }
 function UpdateItemSuccess(sender, args) {
    alert('Öge başarıyla güncellendi.');
-}</pre>
-<p style="text-align: justify;"><strong>Listeden Öge Silme:</strong></p>
+}
+```
+**Listeden Öge Silme:**
 
-<pre class="lang:default decode:true ">var myContext = new SP.ClientContext.get_current();
+```javascript
+var myContext = new SP.ClientContext.get_current();
 var myWeb = myContext.get_web();
 var myList = myWeb.get_lists().getByTitle('ListeAdı');
 var myListItem = myList.getItemById(2014);
@@ -87,6 +94,7 @@ function DeleteItemFail(sender, args) {
 }
 function DeleteItemSuccess(sender, args) {
    alert('Öge başarıyla silindi.');
-}</pre>
-<p style="text-align: justify;">Vakit ayırabilirsem bir sonraki yazı, bir <em>jQuery</em> eklentisi olan <em>SPServices</em> ile ilgili olacak, bunun haberini de -kendimi yazmaya motive edebilmek adına- vermiş olayım.</p>
-<p style="text-align: justify;">Hepinize iyi çalışmalar...</p>
+}
+```
+Vakit ayırabilirsem bir sonraki yazı, bir *jQuery* eklentisi olan *SPServices* ile ilgili olacak, bunun haberini de -kendimi yazmaya motive edebilmek adına- vermiş olayım.
+Hepinize iyi çalışmalar...

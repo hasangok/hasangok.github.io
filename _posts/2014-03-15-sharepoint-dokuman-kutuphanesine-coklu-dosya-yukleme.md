@@ -6,10 +6,10 @@ author: hasangok
 comments: true
 Tags: [Çoklu dosya yükleme, Döküman Kütüphanesi, JavaScript, Sharepoint, SharePoint, UploadCtl]
 ---
-<p style="text-align: justify;">Son birkaç günümü bu konu üzerinde araştırmalarla geçirdim. İlk başta <em>FileUpload</em> kontrolü ile bu isteği gerçekleştirmiş olsam da daha kolay, daha hızlı ve daha sorunsuz bir yöntem olmasından dolayı <strong>UploadCtl</strong> adlı <em>ActiveX</em> bişelenini kullanmaya karar verdim. Oluşturduğunuz bir <em>Visual Web Part</em>'ın <em>ASCX</em> dosyasına aşağıdaki kodları eklemeniz, belirttiğiniz kütüphaneye dosya yüklemenize olanak sağlıyor:</p>
-<p style="text-align: justify;"><!--more--></p>
+Son birkaç günümü bu konu üzerinde araştırmalarla geçirdim. İlk başta *FileUpload* kontrolü ile bu isteği gerçekleştirmiş olsam da daha kolay, daha hızlı ve daha sorunsuz bir yöntem olmasından dolayı **UploadCtl** adlı *ActiveX* bişelenini kullanmaya karar verdim. Oluşturduğunuz bir *Visual Web Part*'ın *ASCX* dosyasına aşağıdaki kodları eklemeniz, belirttiğiniz kütüphaneye dosya yüklemenize olanak sağlıyor:
 
-<pre class="lang:default decode:true">&lt;script type="text/jscript"&gt;
+```html
+&lt;script type="text/jscript"&gt;
     function DocumentUpload() {
         var uploadCtl = document.getElementById("idUploadCtl");
         uploadCtl.MultipleUpload();
@@ -34,6 +34,7 @@ Tags: [Çoklu dosya yükleme, Döküman Kütüphanesi, JavaScript, Sharepoint, S
     &lt;/script&gt;
     &lt;asp:Button runat="server" accesskey="O" id="btnTamam" CssClass="ms-ButtonHeightWidth" Text="Dosyaları Yükle" UseSubmitBehavior="False" OnClientClick="DocumentUpload(); return false;"/&gt;
     &lt;asp:Button runat="server" accesskey="C" id="btnIptal" CssClass="ms-ButtonHeightWidth" Text="İptal" UseSubmitBehavior="False" style="display: none;"/&gt;
-&lt;/asp:Panel&gt;</pre>
-<p style="text-align: justify;">Yukarıda gördüğünüz gizlenmiş input'lar kontrolümüzün nasıl çalışacağını ayarlamış oluyoruz. <em><strong>putopts</strong></em> ile varolan dosyaların üzerine yazıp yazmayacağımızı, <em><strong>destionation</strong></em> ile yükleme yapacağımız doküman kütüphanesi veya klasörün yolunu belirleyebiliriz. Tarayıcımızda <em>ActiveX</em>'in devre dışı olmaması gerektiğini de unutmayın.</p>
-<p style="text-align: justify;">İyi çalışmalar...</p>
+&lt;/asp:Panel&gt;
+```
+Yukarıda gördüğünüz gizlenmiş input'lar kontrolümüzün nasıl çalışacağını ayarlamış oluyoruz. ***putopts*** ile varolan dosyaların üzerine yazıp yazmayacağımızı, ***destionation*** ile yükleme yapacağımız doküman kütüphanesi veya klasörün yolunu belirleyebiliriz. Tarayıcımızda *ActiveX*'in devre dışı olmaması gerektiğini de unutmayın.
+İyi çalışmalar...

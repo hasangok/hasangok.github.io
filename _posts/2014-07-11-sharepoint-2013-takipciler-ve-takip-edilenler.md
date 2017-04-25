@@ -6,20 +6,21 @@ author: hasangok
 comments: true
 Tags: [JavaScript, Sharepoint, SharePoint, Sosyal, takipçi]
 ---
-<p style="text-align: justify;"><em>SharePoint 2013</em> ile bir sosyal portal geliştiriyorsak geçerli kullanıcıya ait takipçi / takip edilen bilgilerine Javascript Object Model ile ulaşmamız gerekebiliyor. Bunu Facebook ya da Twitter'da olduğu gibi, "<strong><em>x yeni takipçi</em></strong>" şeklinde bir bildirim mesajı ile bu takipçilerin kim olduklarını gösterecek bir arayüz geliştirebiliriz. Aşağıdaki örnek MSDN'de bulunsa da göz önünde bulunması için paylaşmak istedim.</p>
-<p style="text-align: justify;">Hepsinden önce, sayfamızda <em>SP.js</em> ve <em>SP.UserProfiles.js</em> dosyalarının sayfamıza eklenmiş olması gerekiyor. Bu kodların DOM yüklendikten sonra çalışmasını istediğimizden tabi ki <em>jQuery</em>'e de ihtiyacımız var.</p>
+*SharePoint 2013* ile bir sosyal portal geliştiriyorsak geçerli kullanıcıya ait takipçi / takip edilen bilgilerine Javascript Object Model ile ulaşmamız gerekebiliyor. Bunu Facebook ya da Twitter'da olduğu gibi, "***x yeni takipçi***" şeklinde bir bildirim mesajı ile bu takipçilerin kim olduklarını gösterecek bir arayüz geliştirebiliriz. Aşağıdaki örnek MSDN'de bulunsa da göz önünde bulunması için paylaşmak istedim.
+Hepsinden önce, sayfamızda *SP.js* ve *SP.UserProfiles.js* dosyalarının sayfamıza eklenmiş olması gerekiyor. Bu kodların DOM yüklendikten sonra çalışmasını istediğimizden tabi ki *jQuery*'e de ihtiyacımız var.
 
-<pre class="lang:default decode:true">&lt;SharePoint:ScriptLink name="SP.js" runat="server" ondemand="false" localizable="false" loadafterui="true" /&gt; 
+```html
+&lt;SharePoint:ScriptLink name="SP.js" runat="server" ondemand="false" localizable="false" loadafterui="true" /&gt; 
 &lt;SharePoint:ScriptLink name="SP.UserProfiles.js" runat="server" ondemand="false" localizable="false" loadafterui="true" /&gt;
-</pre>
-<!--more-->
-<pre class="lang:default decode:true">var followed;
+```
+
+```javascript
+var followed;
 var followers;
 
 $(document).ready(function () {
     SP.SOD.executeOrDelayUntilScriptLoaded(getFollowedAndFollowers, 'SP.UserProfiles.js');
 });
-
 
 function getFollowedAndFollowers() {
     var clientContext = SP.ClientContext.get_current();
@@ -52,5 +53,5 @@ function showFollowedAndFollowers() {
 
 function requestFailed(sender, args) {
     $('#message').html('Error: ' + args.get_message());
-}</pre>
-&nbsp;
+}
+```

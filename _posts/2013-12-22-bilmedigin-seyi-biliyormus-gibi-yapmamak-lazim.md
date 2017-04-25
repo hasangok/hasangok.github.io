@@ -6,4 +6,4 @@ author: hasangok
 comments: true
 Tags: [Genel, Görsel]
 ---
-
+![Bilmediğin şeyi biliyormuş gibi yapmamak lazım](https://raw.githubusercontent.com/hasangok/hasangok.github.io/master/uploads/2013/12/1461790_10150390942804945_713202373_n.jpg)

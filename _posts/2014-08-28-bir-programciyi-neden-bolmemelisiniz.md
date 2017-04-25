@@ -6,9 +6,8 @@ author: hasangok
 comments: true
 Tags: [bölünme, Genel, karikatür, programcı]
 ---
-<p style="text-align: justify;">Sık yaşadığımız bir durumu özetleyen, güler misin ağlar mısın tarzı bir karikatür. Çok hoşuma gitti paylaşmak istedim. Karikatürü yazının devamında bulabilirsiniz.</p>
-<p style="text-align: justify;">Bölünmemek dileğiyle,
-Sevgiler...</p>
-<!--more-->
+Sık yaşadığımız bir durumu özetleyen, güler misin ağlar mısın tarzı bir karikatür. Çok hoşuma gitti paylaşmak istedim. Karikatürü yazının devamında bulabilirsiniz.
+Bölünmemek dileğiyle,
+Sevgiler...
 
-<img class="aligncenter size-full wp-image-755" src="https://raw.githubusercontent.com/hasangok/hasangok.github.io/master/uploads/2014/08/ProgrammerInterrupted.png" alt="ProgrammerInterrupted" width="682" height="2618" />
+![ProgrammerInterrupted](https://raw.githubusercontent.com/hasangok/hasangok.github.io/master/uploads/2014/08/ProgrammerInterrupted.png "Programmer Interrupted")

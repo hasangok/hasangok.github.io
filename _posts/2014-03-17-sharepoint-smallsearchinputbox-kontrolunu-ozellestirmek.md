@@ -6,9 +6,10 @@ author: hasangok
 comments: true
 Tags: [Search Service, Sharepoint, SharePoint, SmallSearchInputBox]
 ---
-<p style="text-align: justify;"><em>SharePoint</em> arayüzünde bulunan bu küçük arama kutusunu, belirlediğimiz farklı bir arama sayfasını kullanması veya arama yapmadan önce scope seçimi yapılabilmesi için özelleştirmek isteyebiliyoruz. Bunu yapmak için <em>Visual Studio</em> ile <em>SmallSearchInputBox</em> kontrolünü override etmemiz mümkün. Yapmamız gereken <em>SharePoint</em> projemize, adı <em>SmallSearchInputBox</em> olan yeni bir <em>Empty Element</em> ekleyip, <strong>Elements.xml</strong> dosyasının içeriğini aşağıdakilerle değiştirmek:</p>
+*SharePoint* arayüzünde bulunan bu küçük arama kutusunu, belirlediğimiz farklı bir arama sayfasını kullanması veya arama yapmadan önce scope seçimi yapılabilmesi için özelleştirmek isteyebiliyoruz. Bunu yapmak için *Visual Studio* ile *SmallSearchInputBox* kontrolünü override etmemiz mümkün. Yapmamız gereken *SharePoint* projemize, adı *SmallSearchInputBox* olan yeni bir *Empty Element* ekleyip, **Elements.xml** dosyasının içeriğini aşağıdakilerle değiştirmek:
 
-<pre class="lang:default decode:true">&lt;?xml version="1.0" encoding="utf-8"?&gt;
+```html
+&lt;?xml version="1.0" encoding="utf-8"?&gt;
 &lt;Elements xmlns="http://schemas.microsoft.com/sharepoint/"&gt;
   &lt;Control Id="SmallSearchInputBox"
        Sequence="25"
@@ -24,6 +25,7 @@ Tags: [Search Service, Sharepoint, SharePoint, SmallSearchInputBox]
     &lt;Property Name="AdvancedSearchPageURL"&gt;/Arama/Sayfasi.aspx&lt;/Property&gt;
     &lt;Property Name="QueryPromptString"&gt;Ara...&lt;/Property&gt;
   &lt;/Control&gt;
-&lt;/Elements&gt;</pre>
-<p style="text-align: justify;">Oluşturduğumuz bu kontrolü içerisine koyduğumuz özelliğin (<em>feature</em>) mutlaka <em><strong>Site</strong></em> scope'unda deploy edilmesi gerekiyor. Deploy ettikten sonra arama kutunuz değişmiyorsa, daha küçük <em>Sequence</em> değerleriyle tekrar deploy edip deneyebilirsiniz.</p>
-<p style="text-align: justify;">İyi çalışmalar...</p>
+&lt;/Elements&gt;
+```
+Oluşturduğumuz bu kontrolü içerisine koyduğumuz özelliğin (*feature*) mutlaka ***Site*** scope'unda deploy edilmesi gerekiyor. Deploy ettikten sonra arama kutunuz değişmiyorsa, daha küçük *Sequence* değerleriyle tekrar deploy edip deneyebilirsiniz.
+İyi çalışmalar...

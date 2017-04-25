@@ -6,10 +6,10 @@ author: hasangok
 comments: true
 Tags: [Kişisel, Sohbet]
 ---
-<strong>Mihrap:</strong> Birini özlediğim için ağlayacağım hiç aklıma gelmezdi.
+**Mihrap:** Birini özlediğim için ağlayacağım hiç aklıma gelmezdi.
 
-<strong>Ben:</strong> Benim de.
+**Ben:** Benim de.
 
-<strong>Mihrap:</strong> Ağladın mı hiç?
+**Mihrap:** Ağladın mı hiç?
 
-<strong>Ben:</strong> Yooo :D
+**Ben:** Yooo :D

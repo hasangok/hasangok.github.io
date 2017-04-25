@@ -6,15 +6,14 @@ author: hasangok
 comments: true
 Tags: [Full Crawl, Search Service, Sharepoint, SharePoint, System Account]
 ---
-<p style="text-align: justify;">Geliştirdiğimiz portalda son ana kadar farketmediğimiz bu hata kısa süreli de olsa bir panik hali yaşamama sebep oldu :) Yeni sorunumuz şu ki arama sonuçları sadece <em>Sistem Hesabı</em> kullanıcılarına görünür durumda, diğer tüm kullanıcılar arama sonuçlarında boş sayfa görmekteler.</p>
-<p style="text-align: justify;">Burada öncelikle <em>Search Service</em> için kullandığımız hesabın hangisi olduğunu öğrenmemiz gerekiyor. <em>Central Administration</em> sayfasında <em>Manage Service Applications</em> linkinden ulaşabileceğimiz <em>Search Service Application</em>'da "<strong>Default content access account</strong>" karşısında yazan kullanıcıyı, aşağıdaki adımları takip ederek <strong><em>Windows Authorization Access Group</em></strong>'a eklememiz gerekiyor.</p>
+Geliştirdiğimiz portalda son ana kadar farketmediğimiz bu hata kısa süreli de olsa bir panik hali yaşamama sebep oldu :) Yeni sorunumuz şu ki arama sonuçları sadece *Sistem Hesabı* kullanıcılarına görünür durumda, diğer tüm kullanıcılar arama sonuçlarında boş sayfa görmekteler.
+Burada öncelikle *Search Service* için kullandığımız hesabın hangisi olduğunu öğrenmemiz gerekiyor. *Central Administration* sayfasında *Manage Service Applications* linkinden ulaşabileceğimiz *Search Service Application*'da "**Default content access account**" karşısında yazan kullanıcıyı, aşağıdaki adımları takip ederek ***Windows Authorization Access Group***'a eklememiz gerekiyor.
 
-<ol style="text-align: justify;">
-	<li><em>Active Directory Users and Computers</em> uygulamasını açıyoruz.</li>
-	<li><em><strong>Builtin</strong></em> altında bulunan <em><strong>Windows Authorization Access Group</strong></em>'a çift tıklıyoruz.</li>
-	<li><em><strong>Members</strong></em> sekmesine geçip <em>Add</em> butonuna tıklıyoruz.</li>
-	<li>Kullanıcımızı buraya ekleyip, buradaki işimizi tamamlıyoruz.</li>
-	<li><em>Central Admin</em> &gt; <em>Manage service applications</em> &gt; <em>Search Service Application</em> &gt; <em>Content Sources</em> yolunu izleyerek <strong><em>Full Crawl</em> </strong>başlatıyoruz.</li>
-</ol>
-<p style="text-align: justify;">Crawl işlemi tamamlandığında, arama sonuçları tüm kullanıcılar tarafından görüntülenebilecek.</p>
-<p style="text-align: justify;">İyi çalışmalar...</p>
+1. *Active Directory Users and Computers* uygulamasını açıyoruz.
+2. ***Builtin*** altında bulunan ***Windows Authorization Access Group***'a çift tıklıyoruz.
+3. ***Members*** sekmesine geçip *Add* butonuna tıklıyoruz.
+4. Kullanıcımızı buraya ekleyip, buradaki işimizi tamamlıyoruz.
+5. *Central Admin* &gt; *Manage service applications* &gt; *Search Service Application* &gt; *Content Sources* yolunu izleyerek ***Full Crawl* **başlatıyoruz.
+
+Crawl işlemi tamamlandığında, arama sonuçları tüm kullanıcılar tarafından görüntülenebilecek.
+İyi çalışmalar...

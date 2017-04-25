@@ -17,7 +17,7 @@ Exception: The upgraded database schema doesn't match the TargetSchema
      at Microsoft.SharePoint.Upgrade.SPUpgradeSession.Upgrade(Object o, Boolean bRecurse)
 ```
 Bunun için öncelikle content database'leri upgrade etmemiz, sonrasında Configuration Wizard'ı çalıştırmamız gerekiyor. SharePoint 2016 Management Shell açarak aşağıdaki satırı çalıştırmak yeterli olacak:
-```
+```powershell
 Get-SPContentDatabase | ?{$_.NeedsUpgrade -eq $true} | Upgrade-SPContentDatabase -Confirm:$false
 ```
 Sonrasında Configuration Wizard başarılı bir şekilde tamamlanacak. Check Upgrade Status sayfasından da başarıyla tamamlandığını görebilirsiniz.
