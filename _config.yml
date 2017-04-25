@@ -59,6 +59,7 @@ permalink: /:title.html
 version: v1.2.0
 
 paginate: 5
+excerpt_separator: "<!--more-->"
 
 # Jekyll 3 now only supports Kramdown for Markdown
 kramdown:
