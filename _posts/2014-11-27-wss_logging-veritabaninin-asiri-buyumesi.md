@@ -11,11 +11,11 @@ Tags: [Get-SPUsageDefinition, PowerShell, Sharepoint, SharePoint, Sharepoint 201
 
 <pre class="lang:default decode:true   ">Get-SPUsageDefinition</pre>
 <!--more-->
-<p style="text-align: justify;"><a href="http://www.hasangok.com.tr/wp-content/uploads/2014/11/Get-SPUsageDefinition-list.png"><img class="alignnone wp-image-778 size-full" src="http://www.hasangok.com.tr/wp-content/uploads/2014/11/Get-SPUsageDefinition-list.png" alt="Get-SPUsageDefinition-list" width="475" height="342" /></a></p>
+<p style="text-align: justify;"><a href="https://raw.githubusercontent.com/hasangok/hasangok.github.io/master/uploads/2014/11/Get-SPUsageDefinition-list.png"><img class="alignnone wp-image-778 size-full" src="https://raw.githubusercontent.com/hasangok/hasangok.github.io/master/uploads/2014/11/Get-SPUsageDefinition-list.png" alt="Get-SPUsageDefinition-list" width="475" height="342" /></a></p>
 <p style="text-align: justify;">Aşağıdaki PowerShell scriptini <em><strong>setRetentionDays.ps1</strong></em> adıyla kaydedip çalıştırırsanız, tüm aktivitelerin 3 gün loglanmasını sağlayabilirsiniz. Daha farklı bir değer için ise "<strong>-day</strong>" parametresi ile kaç gün olacağını belirterek çalıştırabiliriniz.</p>
 
 <pre class="lang:default decode:true ">.\setRetentionDays.ps1 -day 5</pre>
-<p style="text-align: justify;"><img class="alignnone wp-image-774 size-full" src="http://www.hasangok.com.tr/wp-content/uploads/2014/11/Get-SPUsageDefinition.png" alt="Get-SPUsageDefinition" width="480" height="84" /></p>
+<p style="text-align: justify;"><img class="alignnone wp-image-774 size-full" src="https://raw.githubusercontent.com/hasangok/hasangok.github.io/master/uploads/2014/11/Get-SPUsageDefinition.png" alt="Get-SPUsageDefinition" width="480" height="84" /></p>
 <p style="text-align: justify;"><em><strong>setRetentionDays.ps1</strong></em></p>
 
 <pre class="lang:default decode:true" title="setRetentionDays.ps1">param(

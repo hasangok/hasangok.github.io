@@ -11,4 +11,4 @@ Tags: [bölünme, Genel, karikatür, programcı]
 Sevgiler...</p>
 <!--more-->
 
-<img class="aligncenter size-full wp-image-755" src="http://www.hasangok.com.tr/wp-content/uploads/2014/08/ProgrammerInterrupted.png" alt="ProgrammerInterrupted" width="682" height="2618" />
+<img class="aligncenter size-full wp-image-755" src="https://raw.githubusercontent.com/hasangok/hasangok.github.io/master/uploads/2014/08/ProgrammerInterrupted.png" alt="ProgrammerInterrupted" width="682" height="2618" />

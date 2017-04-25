@@ -14,4 +14,4 @@ $list.ImageUrl = "/SiteAssets/l_veripark.jpg"
 $list.Update()</pre>
 <strong>Sonuç:</strong>
 
-<img class="alignnone size-full wp-image-783" src="http://www.hasangok.com.tr/wp-content/uploads/2014/11/sharepoint-list-custom-icon.png" alt="sharepoint-list-custom-icon" width="949" height="504" />
+<img class="alignnone size-full wp-image-783" src="https://raw.githubusercontent.com/hasangok/hasangok.github.io/master/uploads/2014/11/sharepoint-list-custom-icon.png" alt="sharepoint-list-custom-icon" width="949" height="504" />

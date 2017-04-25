@@ -15,5 +15,5 @@ Tags: [SharePoint, Sharepoint 2013, SharePoint Online, Sosyal]
 	<li>E-posta bildirimi almasını istemediğimiz kullanıcıyı arayıp, <em>Profili Düzenle</em> linkine tıklanır.</li>
 	<li>E-posta bildirimleri bölümündeki tüm seçenekler kaldırılır.</li>
 </ol>
-<p style="text-align: justify;"><img class="aligncenter size-full wp-image-708" src="http://www.hasangok.com.tr/wp-content/uploads/2014/06/sharepoint-email-notifications.png" alt="sharepoint-email-notifications" width="528" height="173" /></p>
+<p style="text-align: justify;"><img class="aligncenter size-full wp-image-708" src="https://raw.githubusercontent.com/hasangok/hasangok.github.io/master/uploads/2014/06/sharepoint-email-notifications.png" alt="sharepoint-email-notifications" width="528" height="173" /></p>
 <p style="text-align: justify;"><em>SharePoint</em>'in sosyal özelliklerine fazla aşina olmadığımdan bu yazıyı kendime not etmek istedim. Aynı ayarları kullanıcı isterse <em>Hakkımda</em> &gt; <em>Profili düzenle</em> &gt; <em>Haber Akışı Ayarları</em> yolunu izleyerek kendisi de yapabiliyor.</p>

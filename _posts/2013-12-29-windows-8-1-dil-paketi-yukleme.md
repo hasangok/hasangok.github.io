@@ -11,7 +11,7 @@ Tags: [Bilgisayar, Dil Paketi, lp.cab, Windows 8.1]
 
 <ol style="text-align: justify;">
 	<li>Başlat ekranına <em><strong>lpksetup</strong></em> yazarak karşımıza gelen sihirbaz ile bu dosyaları sistemimize yükleyebiliyoruz.
-<img class="aligncenter size-full wp-image-561" alt="lpksetup" src="http://www.hasangok.com.tr/wp-content/uploads/2013/12/lpksetup.png" width="623" height="439" /></li>
+<img class="aligncenter size-full wp-image-561" alt="lpksetup" src="https://raw.githubusercontent.com/hasangok/hasangok.github.io/master/uploads/2013/12/lpksetup.png" width="623" height="439" /></li>
 	<li>Yönetici olarak çalıştırdığımız bir <em>Komut İstemi</em> (cmd.exe) penceresinde aşağıdaki satırı çalıştırabiliriz:
 <pre class="lang:default decode:true">dism /online /add-package /packagepath:D:\tr-tr\lp.cab</pre>
 </li>
