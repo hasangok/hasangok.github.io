@@ -6,9 +6,10 @@ author: hasangok
 comments: true
 Tags: [Google Arama, Opera, Opera 17, Programlar]
 ---
-<p style="text-align: justify;">İş bilgisayarımı formatlayıp da <em>Opera</em>'yı tekrar yüklediğimde yaptığım tüm <em>Google</em> aramaları "<strong>google.de</strong>" üzerinden yapılıyordu. <em>Opera</em> arayüzünde konu ile ilgili herhangi bir ayar bulamadığımdan <em>Opera</em>'nın profil klasörü olan "<em>C:\Users\hasan.gok\AppData\Roaming\Opera Software\Opera Stable"</em> klasörüne göz atmak istedim. Evet, tahmin ettiğim gibi içeriği aşağıdaki gibi olan, "<strong><em>Local State</em></strong>" adlı bir dosya vardı:</p>
+İş bilgisayarımı formatlayıp da *Opera*'yı tekrar yüklediğimde yaptığım tüm *Google* aramaları "**google.de**" üzerinden yapılıyordu. *Opera* arayüzünde konu ile ilgili herhangi bir ayar bulamadığımdan *Opera*'nın profil klasörü olan "*C:\Users\hasan.gok\AppData\Roaming\Opera Software\Opera Stable"* klasörüne göz atmak istedim. Evet, tahmin ettiğim gibi içeriği aşağıdaki gibi olan, "***Local State***" adlı bir dosya vardı:
 
-<pre class="lang:default decode:true ">{
+```json
+{
    "browserjs": {
       "version": "1381219435"
    },
@@ -30,5 +31,6 @@ Tags: [Google Arama, Opera, Opera 17, Programlar]
          "next_check_interval": "28800"
       }
    }
-}</pre>
-<p style="text-align: justify;">Bu dosyayı <em>Not Defteri</em> ile açıp <strong>DE</strong> olarak gördüğümüz yerleri <strong>TR</strong> olarak değiştirdiğimizde aramalarımız <strong>google.com.tr</strong> üzerinden yapılmaya başlayacak.</p>
+}
+```
+Bu dosyayı *Not Defteri* ile açıp **DE** olarak gördüğümüz yerleri **TR** olarak değiştirdiğimizde aramalarımız **google.com.tr** üzerinden yapılmaya başlayacak.

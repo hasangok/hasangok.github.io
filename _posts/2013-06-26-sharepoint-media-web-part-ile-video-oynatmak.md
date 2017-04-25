@@ -6,16 +6,14 @@ author: hasangok
 comments: true
 Tags: [Javascript, Media Webpart, Sharepoint, SharePoint]
 ---
-<p style="text-align: justify;">Son birkaç gündür Coca-Cola için bir video player web part’ı yazmaya çalışıyorum. Bunun için öncelikle "<strong>flow player</strong>" kullanmak istesem de, Internet Explorer’da çıkarttığı sorunlar yüzünden bundan vazgeçtim ve SharePoint içinde gelen "<em><strong>Media Web Part</strong></em>"ı kullanmaya karar verdim. Bu web part'ı sayfamıza dinamik olarak ekleyip istediğimiz video’yu oynatabiliyoruz. Bunun için öncelikle "<em><strong>mediaplayer.js</strong></em>" dosyasını sayfamıza eklememiz gerekiyor:</p>
+Son birkaç gündür Coca-Cola için bir video player web part’ı yazmaya çalışıyorum. Bunun için öncelikle "**flow player**" kullanmak istesem de, Internet Explorer’da çıkarttığı sorunlar yüzünden bundan vazgeçtim ve SharePoint içinde gelen "***Media Web Part***"ı kullanmaya karar verdim. Bu web part'ı sayfamıza dinamik olarak ekleyip istediğimiz video’yu oynatabiliyoruz. Bunun için öncelikle "***mediaplayer.js***" dosyasını sayfamıza eklememiz gerekiyor:
 
-<pre class="brush: js;">
-
+```html
 <script type="text/javascript" src="/_layouts/mediaplayer.js"></script>
+```
+Daha sonra aşağıdaki kodları kullanarak media webpartımızı *videoDiv* adını vereceğimiz bir div içerisinde oluşturabiliyoruz.
 
-</pre>
-<p style="text-align: justify;">Daha sonra aşağıdaki kodları kullanarak media webpartımızı <em>videoDiv</em> adını vereceğimiz bir div içerisinde oluşturabiliyoruz.</p>
-
-<pre class="brush: js;"><script type="text/javascript">
+```javascript
  $(document).ready(function () {
  var videoHolder = document.getElementById(‘videoDiv’);
 
@@ -33,13 +31,9 @@ mediaPlayer.createMediaPlayer(
  }
  );
  });
+```
+Not: ready() fonksiyonunu kullanmadığımız takdirde, sayfa yüklenmeden bu kodların çalışması ve istediğimiz div’in bulunamaması gibi bir sorun oluşabiliyor. Bu yüzden sayfa tamamen yüklenene kadar bu kodu bekletmek en doğrusu. .ready() fonksiyonu için Jquery, Jquery için aşağıdaki ifade gereklidir:
 
-</script></pre>
-<p style="text-align: justify;">Not: ready() fonksiyonunu kullanmadığımız takdirde, sayfa yüklenmeden bu kodların çalışması ve istediğimiz div’in bulunamaması gibi bir sorun oluşabiliyor. Bu yüzden sayfa tamamen yüklenene kadar bu kodu bekletmek en doğrusu. .ready() fonksiyonu için Jquery, Jquery için aşağıdaki ifade gereklidir:</p>
-
-<pre class="brush: js;">
-
+```html
 <script type="text/javascript" src="./path/jquery.min.js"></script>
-
-</pre>
-<p style="text-align: justify;"></p>
+```

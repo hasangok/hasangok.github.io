@@ -6,9 +6,10 @@ author: hasangok
 comments: true
 Tags: [PowerShell, PowerShell, Resim Kütüphanesi, Sharepoint, SharePoint, Sharepoint 2013]
 ---
-<p style="text-align: justify;">Birkaç <em>PowerShell</em> scripti ile ilgilenmek zorunda kaldıktan sonra, böyle bir şey de vardı diyen arkadaşım Selçuk Demir aracılığıyla paylaşıyorum efendim :) <em>SharePoint 2010</em> ve <em>SharePoint 2013</em> resim kütüphanelerinde deneyip başarılı çalıştığını gördüğümüz bu scriptin ilgili değişkenlerini düzenleyip, kütüphanenizde bulunan tüm resimleri belirlediğiniz bir klasöre indirebiliyorsunuz.</p>
+Birkaç *PowerShell* scripti ile ilgilenmek zorunda kaldıktan sonra, böyle bir şey de vardı diyen arkadaşım Selçuk Demir aracılığıyla paylaşıyorum efendim :) *SharePoint 2010* ve *SharePoint 2013* resim kütüphanelerinde deneyip başarılı çalıştığını gördüğümüz bu scriptin ilgili değişkenlerini düzenleyip, kütüphanenizde bulunan tüm resimleri belirlediğiniz bir klasöre indirebiliyorsunuz.
 
-<pre class="lang:default decode:true">Remove-PSSnapin Microsoft.SharePoint.PowerShell -erroraction SilentlyContinue
+```powershell
+Remove-PSSnapin Microsoft.SharePoint.PowerShell -erroraction SilentlyContinue
 Add-PSSnapin Microsoft.SharePoint.PowerShell -erroraction SilentlyContinue
 
 $destination = "C:\MyLibrary"
@@ -54,6 +55,5 @@ finally
     {
         $web.Dispose()
     }
-}</pre>
-&nbsp;
-<p style="text-align: justify;"></p>
+}
+```

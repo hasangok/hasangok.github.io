@@ -6,15 +6,18 @@ author: hasangok
 comments: true
 Tags: [PowerShell, PowerShell, Profil Resmi, Sharepoint, SharePoint, User Profile]
 ---
-<p style="text-align: justify;">Bu yazıma, yakın zamanda <em>Active Directory</em>'deki kullanıcı profil resimlerinin nasıl <em>SharePoint User Profile</em>'a çekilebileceğini açıklayan bir yazı da yazacağımı belirterek başlamak istiyorum. Ancak önce elimizdeki problemi çözelim ;)</p>
-<p style="text-align: justify;">En son karşılaştığım ve çözmek zorunda olduğum sorun buydu: <em>Active Directory</em>'de tanımlı kullanıcı resimleri, <em>SharePoint User Profile</em>'a aktarılmıştı ancak tüm resim URL'leri hatalıydı. Bu yüzden <em>arama sonuçları</em> ve <em>My Site</em> gibi yerlerde kullanıcıların resimleri yerine çarpı işaretleri görüyorduk. <em>URL'deki problem ise site adresinden sonra tek bir '/' karakterinin eksik olmasıydı</em>.</p>
-<p style="text-align: justify;">Profil resimlerinin URL'leri şu şekilde görünüyordu:</p>
+Bu yazıma, yakın zamanda *Active Directory*'deki kullanıcı profil resimlerinin nasıl *SharePoint User Profile*'a çekilebileceğini açıklayan bir yazı da yazacağımı belirterek başlamak istiyorum. Ancak önce elimizdeki problemi çözelim ;)
+En son karşılaştığım ve çözmek zorunda olduğum sorun buydu: *Active Directory*'de tanımlı kullanıcı resimleri, *SharePoint User Profile*'a aktarılmıştı ancak tüm resim URL'leri hatalıydı. Bu yüzden *arama sonuçları* ve *My Site* gibi yerlerde kullanıcıların resimleri yerine çarpı işaretleri görüyorduk. *URL'deki problem ise site adresinden sonra tek bir '/' karakterinin eksik olmasıydı*.
+Profil resimlerinin URL'leri şu şekilde görünüyordu:
 
-<pre class="lang:default decode:true">http://sharepointURL/my/mysitesUser PhotosProfile Pictures/...</pre>
+```http://sharepointURL/my/mysitesUser PhotosProfile Pictures/...
+```
 Oysa olması gereken URL şu şekildeydi:
-<pre class="lang:default decode:true">http://sharepointURL/my/mysites/User PhotosProfile Pictures/...</pre>
-Aşağıdaki <em>PowerShell</em> scriptini çalıştırarak, yukarıda ilk yazdığım formatta olan tüm URL'leri ikinci formata dönüştürmek mümkün oldu. Böylece sorunumuz da çözülmüş oldu.
-<pre class="lang:default decode:true crayon-selected">Add-PSSnapin Microsoft.Sharepoint.Powershell 
+```http://sharepointURL/my/mysites/User PhotosProfile Pictures/...
+```
+Aşağıdaki *PowerShell* scriptini çalıştırarak, yukarıda ilk yazdığım formatta olan tüm URL'leri ikinci formata dönüştürmek mümkün oldu. Böylece sorunumuz da çözülmüş oldu.
+```powershell
+Add-PSSnapin Microsoft.Sharepoint.Powershell 
 $SiteCollectionUrl = "http://sharepointURL/"
 $hataliURL = "http://sharepointURL/my/mysitesUser" 
 $dogruURL = "http://sharepointURL/my/mysites/User" 
@@ -40,5 +43,5 @@ foreach ($userProfile in $profiles)
    }
 }
 
-$site.Dispose()</pre>
-&nbsp;
+$site.Dispose()
+```

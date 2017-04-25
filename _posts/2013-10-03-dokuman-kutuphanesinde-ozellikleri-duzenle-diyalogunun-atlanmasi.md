@@ -6,9 +6,9 @@ author: hasangok
 comments: true
 Tags: [Döküman Kütüphanesi, JavaScript, Özellikleri Düzenle, Sharepoint, SharePoint, SharePoint Designer]
 ---
-<p style="text-align: justify;"><em>SharePoint 2013</em>'te, bir döküman kütüphanesine dosya yüklenmesi sonrası açılan "<strong>Özellikleri Düzenle</strong>" (<em>Edit Properties</em>) diyalogunun atlanmasına ihtiyacım vardı. Bunu yapacak JavaScript kodları şu şekilde:</p>
+*SharePoint 2013*'te, bir döküman kütüphanesine dosya yüklenmesi sonrası açılan "**Özellikleri Düzenle**" (*Edit Properties*) diyalogunun atlanmasına ihtiyacım vardı. Bunu yapacak JavaScript kodları şu şekilde:
 
-<pre class="lang:default decode:true">&lt;script type="text/javascript"&gt;
+```javascript
   _spBodyOnLoadFunctionNames.push("Redirect");
   function Redirect()
   {
@@ -35,9 +35,12 @@ Tags: [Döküman Kütüphanesi, JavaScript, Özellikleri Düzenle, Sharepoint, S
      str = str.replace(/%2E/g, ".");
      return str;
   }
-&lt;/script&gt;</pre>
-<p style="text-align: justify;"><!--more-->Bunu ilgili yere eklemenin iki yolu var. Birincisi, "<em>Özellikleri Düzenle</em>" penceresi açıkken adres çubunun sonuna "<strong>&amp;ToolPaneView=2</strong>" ekleyip, sayfamıza bir "<em>İçerik Düzenleyicisi</em>" (<em>Content Editor</em>) web partı ekleyerek yukarıdaki kodu HTML içeriğine eklemek. İkinci yol için <em>SharePoint Designer</em> kullanarak sitemize bağlanmamız gerekiyor. Aşağıdaki resimde de gördüğünüz üzere sol tarafta bulunan "<em>List and Libraries</em>" bölümünden ilgili kütüphanemizi seçip, <strong>EditForm.aspx</strong> dosyamıza sağ tıklayıp bu dosyayı düzenlememiz gerekiyor. Aşağıdaki satırı bulup hemen altına yukarıdaki kodları ekleyip dosyamızı kaydedersek, açılan bu pencereyi savuşturmuş oluyoruz.</p>
+```
 
-<pre class="lang:default decode:true">&lt;asp:Content ContentPlaceHolderId="PlaceHolderMain" runat="server"&gt;</pre>
-<img class="aligncenter size-full wp-image-375" src="https://raw.githubusercontent.com/hasangok/hasangok.github.io/master/uploads/2013/10/sharepoint-designer.png" alt="sharepoint-designer" width="898" height="672" />
-<p style="text-align: justify;">Ben bu yöntemi <em>SharePoint 2013</em> için kullandım ve başarılı oldum. Aynısı <em>SharePoint 2010</em> için de kullanılabilir. Yazının İngilizce versiyonuna <a title="Bypass Edit Properties Dialog After Uploading to a Document Library" href="http://www.hasangok.com.tr/383/bypass-edit-properties-dialog-after-uploading-to-a-document-library.html">buradan</a> ulaşabilirsiniz.</p>
+Bunu ilgili yere eklemenin iki yolu var. Birincisi, "*Özellikleri Düzenle*" penceresi açıkken adres çubunun sonuna "**&amp;ToolPaneView=2**" ekleyip, sayfamıza bir "*İçerik Düzenleyicisi*" (*Content Editor*) web partı ekleyerek yukarıdaki kodu HTML içeriğine eklemek. İkinci yol için *SharePoint Designer* kullanarak sitemize bağlanmamız gerekiyor. Aşağıdaki resimde de gördüğünüz üzere sol tarafta bulunan "*List and Libraries*" bölümünden ilgili kütüphanemizi seçip, **EditForm.aspx** dosyamıza sağ tıklayıp bu dosyayı düzenlememiz gerekiyor. Aşağıdaki satırı bulup hemen altına yukarıdaki kodları ekleyip dosyamızı kaydedersek, açılan bu pencereyi savuşturmuş oluyoruz.
+
+```html
+&lt;asp:Content ContentPlaceHolderId="PlaceHolderMain" runat="server"&gt;
+```
+![sharepoint-designer](https://raw.githubusercontent.com/hasangok/hasangok.github.io/master/uploads/2013/10/sharepoint-designer.png)
+Ben bu yöntemi *SharePoint 2013* için kullandım ve başarılı oldum. Aynısı *SharePoint 2010* için de kullanılabilir. Yazının İngilizce versiyonuna <a title="Bypass Edit Properties Dialog After Uploading to a Document Library" href="http://www.hasangok.com.tr/383/bypass-edit-properties-dialog-after-uploading-to-a-document-library.html">buradan</a> ulaşabilirsiniz.

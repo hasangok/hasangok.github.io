@@ -6,22 +6,19 @@ author: hasangok
 comments: true
 Tags: [Client Object Model, Sharepoint, SharePoint]
 ---
-<p style="text-align: justify;">Üzerinde çalıştığım son birkaç projedir <em>Client Object Model</em> kullanıyorum. Bugün ofiste böyle bir tartışma da çıkınca blogumda yer vermek istedim. İşte <em>Client Object Model</em>'in avantaj ve dezavantajları.</p>
-<p style="text-align: justify;"><strong>Avantajlar:</strong></p>
+Üzerinde çalıştığım son birkaç projedir *Client Object Model* kullanıyorum. Bugün ofiste böyle bir tartışma da çıkınca blogumda yer vermek istedim. İşte *Client Object Model*'in avantaj ve dezavantajları.
+**Avantajlar:**
 
-<ol style="text-align: justify;">
-	<li style="text-align: justify;"><em>JavaScript</em> kullanılarak kullanıcı tarafındaki web tarayıcısından <em>SharePoint</em> verilerine ulaşabiliyoruz.</li>
-	<li style="text-align: justify;"><em>jQuery</em> yardımıyla zengin kullanıcı arayüzü olan web partlar geliştirebiliriz.</li>
-	<li style="text-align: justify;">Visual Studio'ya gerek duymaksızın, sadece web tarayıcısı üzerinden, <em>İçerik Düzenleyicisi</em> web partı kullanarak istediğimiz web partları geliştirme şansına sahip oluruz.</li>
-	<li style="text-align: justify;">Sitenizi şablon olarak kaydedip başka bir yere aktardığınızda, <em>Client Object Model</em> ile geliştirdiğiniz her şey de aktardığınız tarafta hazır bulunur.</li>
-	<li style="text-align: justify;"><em>Client Object Model</em> kullanarak geliştirdiğiniz web partların çalışır hale gelmesi için deploy ya da iisreset gerekmez.</li>
-	<li style="text-align: justify;">Geliştirme yapmak istediğiniz bilgisayarda <em>SharePoint</em>'in yüklü bulunması gerekmez.</li>
-</ol>
-<p style="text-align: justify;"><strong>Dejavantajlar:</strong></p>
+1. *JavaScript* kullanılarak kullanıcı tarafındaki web tarayıcısından *SharePoint* verilerine ulaşabiliyoruz.
+2. *jQuery* yardımıyla zengin kullanıcı arayüzü olan web partlar geliştirebiliriz.
+3. Visual Studio'ya gerek duymaksızın, sadece web tarayıcısı üzerinden, *İçerik Düzenleyicisi* web partı kullanarak istediğimiz web partları geliştirme şansına sahip oluruz.
+4. Sitenizi şablon olarak kaydedip başka bir yere aktardığınızda, *Client Object Model* ile geliştirdiğiniz her şey de aktardığınız tarafta hazır bulunur.
+5. *Client Object Model* kullanarak geliştirdiğiniz web partların çalışır hale gelmesi için deploy ya da iisreset gerekmez.
+6. Geliştirme yapmak istediğiniz bilgisayarda *SharePoint*'in yüklü bulunması gerekmez.
 
-<ol>
-	<li style="text-align: justify;">Sunucu tarafında ihtiyaç duyduğumuz zaman yazdığımız <em>RunWithElevatedPrivilege</em> (burada bahsetmiştim) tarzı bir metod kullanma şansımız yok. Dolayısıyla sadece iznimiz kadar bilgiye ulaşabiliyoruz.</li>
-	<li style="text-align: justify;"><em>Client Object Model</em>'de <em>SharePoint</em> verilerine ulaşmak için kullanabileceğimiz oldukça sınırlı sayıda sınıf var. Örneğin <em>User Profile</em> bilgilerine erişmemiz mümkün değil (<em>jQuery</em> ile <em>SharePoint</em> web servislerini kullanarak bu işlemi yapabiliyoruz).</li>
-	<li style="text-align: justify;">Üzerinde çalıştığımız site collection'dan başka bir site collection üzerindeki veriye ulaşamıyoruz.</li>
-	<li style="text-align: justify;">Ulaşmak istediğimiz veriler biraz gecikmeli gelebiliyor. Bu yüzden anlık sorgulama yapmamız gereken durumlarda (örneğin <a title="Enerjisa – Enerjik Sözlük" href="http://www.hasangok.com.tr/?portfolio=enerjisa-enerjik-sozluk">burada</a>) sorunlar yaşanabiliyor.</li>
-</ol>
+**Dejavantajlar:**
+
+1. Sunucu tarafında ihtiyaç duyduğumuz zaman yazdığımız *RunWithElevatedPrivilege* (burada bahsetmiştim) tarzı bir metod kullanma şansımız yok. Dolayısıyla sadece iznimiz kadar bilgiye ulaşabiliyoruz.
+2. *Client Object Model*'de *SharePoint* verilerine ulaşmak için kullanabileceğimiz oldukça sınırlı sayıda sınıf var. Örneğin *User Profile* bilgilerine erişmemiz mümkün değil (*jQuery* ile *SharePoint* web servislerini kullanarak bu işlemi yapabiliyoruz).
+3. Üzerinde çalıştığımız site collection'dan başka bir site collection üzerindeki veriye ulaşamıyoruz.
+4. Ulaşmak istediğimiz veriler biraz gecikmeli gelebiliyor. Bu yüzden anlık sorgulama yapmamız gereken durumlarda sorunlar yaşanabiliyor.

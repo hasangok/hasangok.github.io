@@ -6,5 +6,5 @@ author: hasangok
 comments: true
 Tags: [Ben de Özledim, Burak Aksak, Genel, Leyla ile Mecnun, Video, Video]
 ---
-<p style="text-align: justify;">Keyifle bir kaç sezon daha izlemek kısmet olsaydı, <em>Leyla ile Mecnun</em> finali böyle bitecekti. "<em>Ben de Özledim</em>" dizisinin ilk bölümünde Burak Aksak bu şekilde anlatıyor <em>Leyla ile Mecnun</em> finalini. Gözyaşlarınızı silmek için mendiliniz hazırsa, buyrun izleyin efendim.</p>
-<p style="text-align: justify;">[embed]http://www.youtube.com/watch?v=8m1nKhgVUOE[/embed]</p>
+Keyifle bir kaç sezon daha izlemek kısmet olsaydı, *Leyla ile Mecnun* finali böyle bitecekti. "*Ben de Özledim*" dizisinin ilk bölümünde Burak Aksak bu şekilde anlatıyor *Leyla ile Mecnun* finalini. Gözyaşlarınızı silmek için mendiliniz hazırsa, buyrun izleyin efendim.
+<iframe width="720" height="405" src="https://www.youtube.com/embed/8m1nKhgVUOE" frameborder="0" allowfullscreen=""></iframe>

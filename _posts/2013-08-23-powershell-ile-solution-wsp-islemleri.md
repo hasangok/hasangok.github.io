@@ -6,17 +6,29 @@ author: hasangok
 comments: true
 Tags: [PowerShell, Sharepoint, SharePoint, wsp]
 ---
-<em>SharePoint</em> projelerimizi <strong>Publish</strong> edip <em>wsp paketi</em>mizi aldıktan sonra, <em>PoweShell</em> kullanarak bu paketi <em>yüklemek</em>, <em>deploy etmek</em>, <em>güncellemek</em>, <em>retract etmek</em> ve <em>silmek</em> için aşağıdaki komutları kullanıyoruz.
+*SharePoint* projelerimizi **Publish** edip *wsp paketi*mizi aldıktan sonra, *PoweShell* kullanarak bu paketi *yüklemek*, *deploy etmek*, *güncellemek*, *retract etmek* ve *silmek* için aşağıdaki komutları kullanıyoruz.
 
-<strong>Ekleme:</strong>
-<pre class="brush: sql;">Add-SPSolution "C:\Solutions\SharePointSolution.wsp"</pre>
-<strong>Yükleme:</strong>
-<pre class="brush: sql;">Install-SPSolution –Identity SharePointSolution.wsp –WebApplication http://url –GACDeployment</pre>
-Eğer <em>sandboxed</em> bir solution yükleyeceksek aşağıdaki komutu kullanıyoruz:
-<pre class="brush: sql;">Install-SPUserSolution –Identity SharePointSolution.wsp –WebApplication http://url –GACDeployment</pre>
-<strong>Güncelleme:</strong>
-<pre class="brush: sql;">Update-SPSolution –Identity SharePointSolution.wsp –LiteralPath "C:\Solutions\SharePointSolution.wsp" –GacDeployment</pre>
-<strong>Kaldırma:</strong>
-<pre class="brush: sql;">Uninstall-SPSolution –Identity SharePointSolution.wsp –WebApplication http://url</pre>
-<strong>Silme:</strong>
-<pre class="brush: sql;">Remove-SPSolution–Identity SharePointSolution.wsp</pre>
+**Ekleme:**
+```powershell
+Add-SPSolution "C:\Solutions\SharePointSolution.wsp"
+```
+**Yükleme:**
+```powershell
+Install-SPSolution –Identity SharePointSolution.wsp –WebApplication http://url –GACDeployment
+```
+Eğer *sandboxed* bir solution yükleyeceksek aşağıdaki komutu kullanıyoruz:
+```powershell
+Install-SPUserSolution –Identity SharePointSolution.wsp –WebApplication http://url –GACDeployment
+```
+**Güncelleme:**
+```powershell
+Update-SPSolution –Identity SharePointSolution.wsp –LiteralPath "C:\Solutions\SharePointSolution.wsp" –GacDeployment
+```
+**Kaldırma:**
+```powershell
+Uninstall-SPSolution –Identity SharePointSolution.wsp –WebApplication http://url
+```
+**Silme:**
+```powershell
+Remove-SPSolution–Identity SharePointSolution.wsp
+```

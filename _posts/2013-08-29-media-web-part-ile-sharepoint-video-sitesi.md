@@ -6,9 +6,9 @@ author: hasangok
 comments: true
 Tags: [Asset Library, Media Web Part, Sharepoint, SharePoint, Varlık Kütüphanesi]
 ---
-<p style="text-align: justify;">Varsayalım ki bir <em>SharePoint Asset Library</em> -Varlık Kütüphanesi- oluşturduk ve içerisine videolar yükledik. Bu kütüphanedeki videoların tamamını sayfamızda göstermek istiyoruz. Bunun için <em>SharePoint</em>'in <em>Media Web Part</em>'ını kullanacağız ve kütüphanemizdeki video sayımız kadar video oynatıcısını dinamik olarak sayfamızda oluşturacağız. Bunun için bir web part oluşturduk ve <strong>ASCX</strong> dosyasına "<em>videoPlayers</em>" adında bir literal kontrolü ekledik. Video oynatıcılarımızı oluşturmak için aşağıdakine benzer bir kodlama yapmamız gerekiyor.</p>
-<p style="text-align: justify;">
-<pre class="brush: c-sharp;">
+Varsayalım ki bir *SharePoint Asset Library* -Varlık Kütüphanesi- oluşturduk ve içerisine videolar yükledik. Bu kütüphanedeki videoların tamamını sayfamızda göstermek istiyoruz. Bunun için *SharePoint*'in *Media Web Part*'ını kullanacağız ve kütüphanemizdeki video sayımız kadar video oynatıcısını dinamik olarak sayfamızda oluşturacağız. Bunun için bir web part oluşturduk ve **ASCX** dosyasına "*videoPlayers*" adında bir literal kontrolü ekledik. Video oynatıcılarımızı oluşturmak için aşağıdakine benzer bir kodlama yapmamız gerekiyor.
+
+```csharp
 SPList list = web.Lists.TryGetList("VideoLibrary");
 foreach (SPListItem item in list.Items)
 {
@@ -30,14 +30,13 @@ foreach (SPListItem item in list.Items)
                Convert.ToString(item["EncodedAbsUrl"]),
                Convert.ToString(item["AlternateThumbnailUrl"]));
 }
-</pre>
-</p>
-<p style="text-align: justify;">Burada <em><strong>&lt;object&gt;</strong></em> tagi ile media oynatıcıları oluşturmuş oluyoruz. <em>initParams</em> altında vermemiz gereken 3 önemli parametre var.</p>
+```
 
-<ol style="text-align: justify;">
-	<li><strong>mediaTitle:</strong> Video player üzerinde görünecek olan başlık, ilgili kütüphanenin <em>BaseName</em> sütunundaki bilgi.</li>
-	<li><strong>mediaSource:</strong> Video dosyamızın URL'i, ilgili kütüphanenin <em>EncodedAbsUrl</em> sütunundaki bilgi.</li>
-	<li><strong>previewImageSource:</strong> Video player'ın göstereceği resim, ilgili kütüphanenin <em>AlternateThumbnailUrl</em> sütunundaki bilgi.</li>
-</ol>
-<p style="text-align: justify;">Basitçe, kütüphanedeki tüm videoları listelemek ve oynatabilmek için bu kadarı yeterli. Burada aklımıza hangi dosya türlerinin oynatılabildiğiyle alakalı bir soru gelebilir. <em>Media Web Part</em>'ı bir <em><strong>Silverlight</strong></em> kontrolü olduğu için <a href="http://msdn.microsoft.com/en-us/library/cc189080(VS.95).aspx" target="_blank">şu sayfada</a> belirtilen tüm biçimlerin desteklendiğini de söylemekte fayda var.</p>
-<p style="text-align: justify;">İlgilenenler için <em>Media Web Part</em>'ın <em>JavaScript</em> kullanılarak nasıl oluşturulabildiğini <a title="SharePoint Media Web Part ile Video Oynatmak" href="http://www.hasangok.com.tr/109/sharepoint-media-web-part-ile-video-oynatmak.html">şu sayfa</a>da yazmıştım. Hatırlatmış olayım :)</p>
+Burada ***&lt;object&gt;*** tagi ile media oynatıcıları oluşturmuş oluyoruz. *initParams* altında vermemiz gereken 3 önemli parametre var.
+
+1. **mediaTitle:** Video player üzerinde görünecek olan başlık, ilgili kütüphanenin *BaseName* sütunundaki bilgi.
+2. **mediaSource:** Video dosyamızın URL'i, ilgili kütüphanenin *EncodedAbsUrl* sütunundaki bilgi.
+3. **previewImageSource:** Video player'ın göstereceği resim, ilgili kütüphanenin *AlternateThumbnailUrl* sütunundaki bilgi.
+
+Basitçe, kütüphanedeki tüm videoları listelemek ve oynatabilmek için bu kadarı yeterli. Burada aklımıza hangi dosya türlerinin oynatılabildiğiyle alakalı bir soru gelebilir. *Media Web Part*'ı bir ***Silverlight*** kontrolü olduğu için [şu sayfada](http://msdn.microsoft.com/en-us/library/cc189080(VS.95).aspx) belirtilen tüm biçimlerin desteklendiğini de söylemekte fayda var.
+İlgilenenler için *Media Web Part*'ın *JavaScript* kullanılarak nasıl oluşturulabildiğini <a title="SharePoint Media Web Part ile Video Oynatmak" href="http://www.hasangok.com.tr/109/sharepoint-media-web-part-ile-video-oynatmak.html">şu sayfa</a>da yazmıştım. Hatırlatmış olayım :)

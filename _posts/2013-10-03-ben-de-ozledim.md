@@ -6,5 +6,5 @@ author: hasangok
 comments: true
 Tags: [Ben de Özledim, dizi, Genel, Video, Video]
 ---
-<p style="text-align: justify;">Takip ettiğim ilk ve tek dizi <em>Leyla ile Mecnun</em>'un sona erdiği haberini aldığımda nasıl üzüldüysem, bu dizinin başlayacağını duyduğumda da o kadar sevinmiştim. Her yeni gelişmede heyecanlanıyorum. Nasıl bir dizi olacağının ipucunu Özgür Çevik veriyor :) Bekliyoruz bakalım, izleyelim.</p>
-[embed]http://www.youtube.com/watch?v=5-cFhHeAp-E[/embed]
+Takip ettiğim ilk ve tek dizi *Leyla ile Mecnun*'un sona erdiği haberini aldığımda nasıl üzüldüysem, bu dizinin başlayacağını duyduğumda da o kadar sevinmiştim. Her yeni gelişmede heyecanlanıyorum. Nasıl bir dizi olacağının ipucunu Özgür Çevik veriyor :) Bekliyoruz bakalım, izleyelim.
+<iframe width="720" height="405" src="https://www.youtube.com/embed/5-cFhHeAp-E" frameborder="0" allowfullscreen></iframe>
