@@ -32,5 +32,5 @@ Birkaç gündür büyük sıkıntıya sebep oldu bu durum. Bir *Event Receiver* 
   </Receivers>
 </Elements>
 ```
-Artık liste veya kütüphanenize bir öge eklediğinizde ya da güncellediğinizde, ilgili alan da Event Receiver'ımız tarafından derhal güncellenmiş olacak. Detaylar için [buraya(http://msdn.microsoft.com/en-US/library/gg981880.aspx) bakabilirsiniz.
+Artık liste veya kütüphanenize bir öge eklediğinizde ya da güncellediğinizde, ilgili alan da Event Receiver'ımız tarafından derhal güncellenmiş olacak. Detaylar için [buraya](http://msdn.microsoft.com/en-US/library/gg981880.aspx) bakabilirsiniz.
 Kolay gelsin.
