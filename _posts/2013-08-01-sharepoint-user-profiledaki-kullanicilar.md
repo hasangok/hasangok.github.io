@@ -26,4 +26,4 @@ protected void Page_Load(object sender, EventArgs e)
 </pre>
 
 <p style="text-align: justify;">Bu web part'ı herhangi bir sayfaya eklediğimizde tüm kullanıcılarımızı ve bilgilerini görebiliyoruz.</p>
-<p style="text-align: justify;"><img class="aligncenter size-full wp-image-143" alt="sharepoint-users" src="http://www.hasangok.com.tr/wp-content/uploads/2013/08/sharepoint-users.png" width="485" height="244" /></p>
+<p style="text-align: justify;"><img class="aligncenter size-full wp-image-143" alt="sharepoint-users" src="https://raw.githubusercontent.com/hasangok/hasangok.github.io/master/uploads/2013/08/sharepoint-users.png" width="485" height="244" /></p>

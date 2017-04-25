@@ -13,5 +13,5 @@ Tags: [Bilgisayar, SQL Server, Table Re-Creation, Veritabanı]
 	<li><strong>Designers</strong> bölümüne geçilir.</li>
 	<li>"<em>Prevent saving changes that require the table to be re-creation</em>" kutucuğunun işareti kaldırılır.</li>
 </ol>
-<p style="text-align: justify;"><img class="aligncenter size-full wp-image-185" alt="table-recreation" src="http://www.hasangok.com.tr/wp-content/uploads/2013/08/table-recreation.png" width="644" height="375" /></p>
+<p style="text-align: justify;"><img class="aligncenter size-full wp-image-185" alt="table-recreation" src="https://raw.githubusercontent.com/hasangok/hasangok.github.io/master/uploads/2013/08/table-recreation.png" width="644" height="375" /></p>
 <p style="text-align: justify;">İstediğiniz değişiklikleri artık kaydedebilirsiniz ;)</p>
