@@ -6,7 +6,7 @@ author: hasangok
 comments: true
 Tags: [Programlar, Uzak Masaüstü Bağlantısı, virtualbox, VirtualBox Bridged Networking Driver]
 ---
-![oracle-virtualbox](https://raw.githubusercontent.com/hasangok/hasangok.github.io/master/uploads/2013/12/oracle-virtualbox-150x150.png)
+![oracle-virtualbox](https://raw.githubusercontent.com/hasangok/hasangok.github.io/master/uploads/2013/12/oracle-virtualbox.png)
 Kişisel bilgisayarımda çalışma ortamlarım (*Windows Server* ve *SharePoint*) *VirtualBox* üzerinde bulunuyor. Çalıştığım sunucuya zaman zaman başka kullanıcılar ile de bağlanıp bazı denemeler / kontroller yapmam gerekebiliyor. Her seferinde o anki kullanıcının oturumunu kapatıp, diğer kullanıcıya geçip, bir şeyler yapıp / deneyip tekrar diğer kullanıcıya geçmek nasıl bir işkence tahmin edebiliyorsunuzdur. Üşenmekten vazgeçtiğim zaman, başka bir kullanıcı ile *uzak masaüstü bağlantısı* yapmaya en çok ihtiyaç duyduğum "*SharePoint-Hosted Apps*" konulu bir yazı yazacağım, o zaman bu ihtiyacın nereden geldiğini daha iyi anlayacaksınız. Uzatmayayım, *VirtualBox* ile çalıştırdığımız bilgisayara *uzak masaüstü bağlantısı* (*RDP*) yapmamız gerekebiliyor. Bunun için herşeyden önce *VirtualBox* için *Extension Pack* indirip yüklememiz gerekiyor. Bu paketin sisteminizde kurulu olan *VirtualBox* ile aynı sürüm olması gerektiğini önemle vurgulayayım.
 
 *Extension Pack* yüklendikten sonra yapmamız gereken ilk iş, uzak masaüstü bağlantısı yapacağımız bilgisayarın özelliklerinden **Uzak bağlantı ayarları** (*Remote settings*) diyalogunu açıp aşağıda gördüğünüz gibi bu özelliği aktif hale getirip bağlanabilecek kullanıcıları seçmek.
