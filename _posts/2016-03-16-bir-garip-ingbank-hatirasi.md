@@ -7,7 +7,9 @@ comments: true
 Tags: [Genel, ingbank, Kişisel]
 ---
 **17.03.2016 Tarihli Düzeltme:** Bugün şikayet hattından Gülsüm hanım aradı, aşağıdaki yazımı okumuşlar. Sorunlarımı dinledi, çözüm üretti, başvurumu tekrar yapmamı sağladı ve en son arayıp başvurumun onaylandığını bildirdi. Hem de şubeye gitmeye gerek kalmadan :) Kendilerine  ve INGBank ailesine teşekkür ediyor, saygılarımı sunuyorum.
+
 **********
+
 Sene 2015, bahar ayları... Sevgili eşimle İsveç gezimizi planlarken bir de baktık ki ne görelim! INGBank Pegasus Plus Kredi kartı alana tek yön uçak bileti hediye ediyor. Zaten kredi kartı alsak diye düşündüğümüz vakitler... Hadi diyoruz başvuralım madem yükümüzü hafifletelim.
 
 Gidiyoruz şubeye, yapıyoruz başvuruları. Günler, haftalar, aylar geçiyor... Biz tatilimize gidip geliyoruz. Başvurumuzdan ses seda yok. Neyse diyoruz, zaten çok da önemli değildi. Yine de arayıp soruyoruz sonuçta çarşaf çarşaf form doldurduk imza attık. Öğreniyoruz ki o başvurular hiç yapılmamış görünüyor. Yani 4. Levent şubedeki hanımefendiler, bize doldurup imzalattıkları formlara muhtemelen döner sarıp yemişler :) Afiyetler olsun, yarasın efendim.
