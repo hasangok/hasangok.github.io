@@ -10,8 +10,8 @@ Tags: [JavaScript, Sharepoint, SharePoint, Sosyal, takipçi]
 Hepsinden önce, sayfamızda *SP.js* ve *SP.UserProfiles.js* dosyalarının sayfamıza eklenmiş olması gerekiyor. Bu kodların DOM yüklendikten sonra çalışmasını istediğimizden tabi ki *jQuery*'e de ihtiyacımız var.
 
 ```html
-&lt;SharePoint:ScriptLink name="SP.js" runat="server" ondemand="false" localizable="false" loadafterui="true" /&gt; 
-&lt;SharePoint:ScriptLink name="SP.UserProfiles.js" runat="server" ondemand="false" localizable="false" loadafterui="true" /&gt;
+<SharePoint:ScriptLink name="SP.js" runat="server" ondemand="false" localizable="false" loadafterui="true" /> 
+<SharePoint:ScriptLink name="SP.UserProfiles.js" runat="server" ondemand="false" localizable="false" loadafterui="true" />
 ```
 
 ```javascript
