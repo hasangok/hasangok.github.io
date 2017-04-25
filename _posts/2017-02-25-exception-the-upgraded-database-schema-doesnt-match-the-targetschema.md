@@ -8,7 +8,7 @@ Tags: [SharePoint, SharePoint 2016, SharePoint Management Shell]
 ---
 Uzun bir aradan sonra tekrar merhaba. Yeni bir yazı, yeni bir problem ile tekrar sizlerleyim.
 
-Yeni kurduğumuz SharePoint 2016 Farm'ına yüklediğimiz patchler sonrası upgrade ederken Configuration Wizard sürekli hata alıyordu. İlgili log dosyalarını incelediğimde (Central Administration &gt; Upgrade and Migration &gt; Check upgrade status yolunda Failed olan satırlarda log dosyası adreslerini görebiliyoruz) gördüm ki aşağıdaki hatayı alıyoruz:
+Yeni kurduğumuz SharePoint 2016 Farm'ına yüklediğimiz patchler sonrası upgrade ederken Configuration Wizard sürekli hata alıyordu. İlgili log dosyalarını incelediğimde (Central Administration &gt; Upgrade and Migration &gt; Check upgrade status yolunda Failed olan satırlarda log dosyası adreslerini görebiliyoruz) gördüm ki aşağıdaki hatayı alıyoruz:<!--more-->
 ```
 Upgrade [SPContentDatabase Name=WSS_Content] failed.
 Exception: The upgraded database schema doesn't match the TargetSchema
