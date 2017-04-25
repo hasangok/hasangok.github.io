@@ -45,12 +45,12 @@ Bu aşamada *List Form Web Part*'ı sayfamızdan silip yerine *Data Form Web Par
 Tasarım moduna geçip yeni eklenen web partı incelersek, *List Form Web Part*'ın aksine sayfa içerisindeki elemanlara ulaşıp bunları düzenleyebildiğimizi göreceğiz. Konumuz olan *İptal* (**Cancel**) butonlarına geri dönelim. Kodumuzda aşağıdaki iki satırı bulalım:
 
 ```html
-&lt;SharePoint:GoBackButton runat="server" ControlMode="New" id="gobackbutton1"/&gt;
-&lt;SharePoint:GoBackButton runat="server" ControlMode="New" id="gobackbutton2"/&gt;
+<SharePoint:GoBackButton runat="server" ControlMode="New" id="gobackbutton1"/>
+<SharePoint:GoBackButton runat="server" ControlMode="New" id="gobackbutton2"/>
 ```
 Bu iki satırı aşağıdaki kod ile değiştirelim:
 
 ```html
-&lt;input type="button" class="ms-ButtonHeightWidth" value="İptal" name="btnCancel" onclick="javascript: {ddwrt:GenFireServerEvent('__redirect={/Pages/IptalEdildi.aspx}')}" /&gt;
+<input type="button" class="ms-ButtonHeightWidth" value="İptal" name="btnCancel" onclick="javascript: {ddwrt:GenFireServerEvent('__redirect={/Pages/IptalEdildi.aspx}')}" />
 ```
 Bu değişikliği yaptıktan sonra dosyamızı kaydedersek göreceğiz ki *Kaydet* (**Save**) butonu bizi URL'deki *Source* ile belirtilen "*/Pages/Kaydedildi.aspx*" adresine yönlendirirken, *İptal* (**Cancel**) butonu **GenFireServerEvent** içerisinde belirttiğimiz "*/Pages/IptalEdildi.aspx*" sayfasına yönlendirecek.
