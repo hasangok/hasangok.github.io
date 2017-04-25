@@ -22,7 +22,7 @@ Sunucuyu farmdan çıkardıktan sonra artık *CA* sitesine ulaşılamıyordu. So
 ```
 HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Shared Tools\Web Server Extensions\14.0\WSS\
 ```
-Buradaki **CentralAdministrationURL** değerini *http://yenisunucu:yeniport/* şeklinde değiştirip kaydediyoruz.
+5. Buradaki **CentralAdministrationURL** değerini *http://yenisunucu:yeniport/* şeklinde değiştirip kaydediyoruz.
 
 Artık *CA* sitesi yeni adresinden ve tüm linkler aracılığıyla erişilebilir durumda.
 İyi çalışmalar.
