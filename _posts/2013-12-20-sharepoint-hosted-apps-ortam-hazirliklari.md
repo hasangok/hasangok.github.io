@@ -6,7 +6,7 @@ author: hasangok
 comments: true
 Tags: [SharePoint, Sharepoint 2013, SharePoint Management Shell, SharePoint-Hosted App]
 ---
-![Sharepoint-2013-Logo](https://raw.githubusercontent.com/hasangok/hasangok.github.io/master/uploads/2013/12/Sharepoint-2013-Logo-150x150.png)
+![Sharepoint-2013-Logo](https://raw.githubusercontent.com/hasangok/hasangok.github.io/master/uploads/2013/12/Sharepoint-2013-Logo.png)
 Uzun zamandır bu yazıyı yazmak istiyorum belki birinin işine yarar düşüncesiyle. Bundan birkaç ay öncesinde benden örnek bir uygulama (yazının devamında uygulama diye bahsettiğim, *SharePoint-Hosted App*'in kendisi olacak) geliştirmem istendiğinde, çetrefilli bir işin ortasında buldum kendimi. Şu an baktığımda, en azından geliştirme ortamını hazırlama işleminin o kadar da zor olmadığını düşünsem de, yeni başlayacak arkadaşların kafalarında oluşan soru işaretlerini bir nebze de olsa giderip, ilk uygulamalarını geliştirmelerinde yardımcı olabileceğimi umuyorum. Piyasada konuyla alakalı yüzlerce makale olsa da, ben elde ettiğim sonuçların özeti ve hazırlıkları tamamlamanın en kısa yolu niteliğinde bu yazıyı sizlerle paylaşmak istedim. Neyse, uzun cümleler kurmaktansa adım adım işlemlerimize geçelim.
 **Adım 1:** Bilmemiz gereken ilk şey, *SharePoint 2013* üzerinde uygulama geliştirebilmek için, iki servisin çalışıyor olması gerekiyor. Bunlar:
 
@@ -56,7 +56,7 @@ $proxyAppSvc = New-SPAppManagementServiceApplicationProxy -ServiceApplication $a
 **Not:** Çeşitli kaynaklar konuyla alakalı açıklamalarında, bu *DNS* kayıtlarını oluşturduktan sonra rastgele oluşturduğunuz bir uygulama URL'sine ping attığınızda (*ping app-abc123.hasanapss.com*) cevap almanız gerektiğini yazmışlar. Birkaç bilgisayarda bu ortamı hazırladığımda yaptığım denemeler sonucu her zaman cevap alamadım. Ancak ping atamıyor olmak, uygulamaların çalışmasına engel olmadı. Uygulamanızı deploy ettikten sonra herhangi bir sorunla karşılaşmıyorsunuz, ping alacağım diye kendinizi paralamanıza gerek olmadığını belirtmek istiyorum :)
 **Adım 7:** Bu aşamada uygulama geliştirmek için her şey hazır. Tek sorunumuz şu olacak: bir uygulama oluşturup deploy ettiğinizde, uygulamanız sizden sürekli oturum açmanızı isteyecek ama bir türlü oturum açılamayacak. Bu sorunu gidermek için de başlat menüsüne ***regedit*** yazıyor ve kayıt defterinde şu yolu izliyoruz:
 ```
-*HKEY_LOCAL_MACHINE\System\CurrentControlSet\Control\Lsa*
+HKEY_LOCAL_MACHINE\System\CurrentControlSet\Control\Lsa
 ```
 Buraya *32 bit DWORD* ekleyip adını ***DisableLoopbackCheck***, değerini ***1*** olarak giriyoruz.
 Ortamımız hazır. Artık uygulama geliştirmek için oluşturduğumuz kullanıcı ile sunucuda oturum açtıktan sonra *Visual Studio*'yu çalıştırıp (yönetici olarak) yeni bir *SharePoint-Hosted App* projesi oluşturabilir ve uygulamamızı deploy edebiliriz.
