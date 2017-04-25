@@ -40,7 +40,7 @@ Tags: [Döküman Kütüphanesi, JavaScript, Özellikleri Düzenle, Sharepoint, S
 Bunu ilgili yere eklemenin iki yolu var. Birincisi, "*Özellikleri Düzenle*" penceresi açıkken adres çubunun sonuna "**&amp;ToolPaneView=2**" ekleyip, sayfamıza bir "*İçerik Düzenleyicisi*" (*Content Editor*) web partı ekleyerek yukarıdaki kodu HTML içeriğine eklemek. İkinci yol için *SharePoint Designer* kullanarak sitemize bağlanmamız gerekiyor. Aşağıdaki resimde de gördüğünüz üzere sol tarafta bulunan "*List and Libraries*" bölümünden ilgili kütüphanemizi seçip, **EditForm.aspx** dosyamıza sağ tıklayıp bu dosyayı düzenlememiz gerekiyor. Aşağıdaki satırı bulup hemen altına yukarıdaki kodları ekleyip dosyamızı kaydedersek, açılan bu pencereyi savuşturmuş oluyoruz.
 
 ```html
-&lt;asp:Content ContentPlaceHolderId="PlaceHolderMain" runat="server"&gt;
+<asp:Content ContentPlaceHolderId="PlaceHolderMain" runat="server">
 ```
 ![sharepoint-designer](https://raw.githubusercontent.com/hasangok/hasangok.github.io/master/uploads/2013/10/sharepoint-designer.png)
 Ben bu yöntemi *SharePoint 2013* için kullandım ve başarılı oldum. Aynısı *SharePoint 2010* için de kullanılabilir. Yazının İngilizce versiyonuna <a title="Bypass Edit Properties Dialog After Uploading to a Document Library" href="http://www.hasangok.com.tr/383/bypass-edit-properties-dialog-after-uploading-to-a-document-library.html">buradan</a> ulaşabilirsiniz.
