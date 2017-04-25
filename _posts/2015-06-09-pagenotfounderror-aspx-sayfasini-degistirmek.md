@@ -10,7 +10,7 @@ Kullanıcı gitmeye çalıştığı sayfaya ulaşamadığında, bu sıkıcı say
 
 1. **PowerShell**:
 Sharepoint 2013 Management Shell ekranında aşağıdaki satırları çalıştırmak.
-```
+```powershell
 $spsite = Get-SPSite "http://sharepoint"
 $spsite.FileNotFoundUrl = "/Pages/404.aspx"
 ```
