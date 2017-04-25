@@ -19,6 +19,7 @@ Tags: [Bilgisayar, C, Dev-C++, MPI, MPICH2, Paralel Programlama, Programlar]
 
 1. *MPICH2* kütüphanesini indirin ve yükleyin. (32 bit sürümünü [buradan](http://www.mcs.anl.gov/research/projects/mpich2staging/goodell/downloads/tarballs/1.4.1p1/mpich2-1.4.1p1-win-ia32.msi), 64 bit sürümünü [şuradan](http://www.mcs.anl.gov/research/projects/mpich2staging/goodell/downloads/tarballs/1.4.1p1/mpich2-1.4.1p1-win-x86-64.msi) indirebilirsiniz, geçerli sürüm: *1.4.1p1*)
 2. Yönetici yetkili kullanıcı hesabınızı ***wmpiregister*** ile tanımlayın. (Başlat &gt; Tüm Programlar &gt; MPICH2 &gt; wmpiregister.exe ile)
+
 ![mpiexec-register](https://raw.githubusercontent.com/hasangok/hasangok.github.io/master/uploads/2014/01/mpiexec-register.png "mpiexec-register")
 
 **Dev-C++ ile Derleme:**
@@ -28,7 +29,7 @@ Tags: [Bilgisayar, C, Dev-C++, MPI, MPICH2, Paralel Programlama, Programlar]
 3. New &gt; Project yolunu izleyerek yeni bir *MPI* uygulaması oluşturun.
 ![new-mpi-project](https://raw.githubusercontent.com/hasangok/hasangok.github.io/master/uploads/2014/01/new-mpi-project.png "new-mpi-project")
 4. Şablon ile gelen kodları derleyin.
-</ol>
+
 **Paralel Uygulamamızı Çalıştırma:**
 
 1. Başlat &gt; Tüm Programlar &gt; MPICH2 &gt; wmpiexec.exe uygulamasını çalıştırın.
