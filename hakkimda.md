@@ -5,7 +5,6 @@ permalink: /hakkimda/
 ---
 
 1988, Nisan ayında "Merhaba Dünya!" dedim.
-
 2002, Ceyhan Süper Lisesi'ne başladım, öğretmenlerimin bilgisayar danışmanı oldum.
 
 2006, Liseyi bitirdim, bilgisayar mühendisi olmam gerektiğine karar verdim.
