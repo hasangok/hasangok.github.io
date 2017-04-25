@@ -17,7 +17,7 @@ Aşağıdaki gibi bir ekleme yaparak *C:\hata.txt* dosyasına bu detayları kayd
 
 ```powershell
 get-splogevent | ?{$_.Correlation -eq "&lt;Correlation ID&gt;"} | select Area, Category, Level, EventID, Message | Format-List &gt; C:\hata.txt
-```powershell
+```
 
 Hata ayıklamada hepinize başarılar :)
 Görüşmek üzere...
