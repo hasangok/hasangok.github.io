@@ -1,7 +1,7 @@
 ---
 layout: post
 title: SharePoint 2013 Takipçiler ve Takip Edilenler
-date: 2014-07-11 01:53
+date: 2014-07-10 01:53
 author: hasangok
 comments: true
 Tags: [JavaScript, Sharepoint, SharePoint, Sosyal, takipçi]
