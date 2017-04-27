@@ -1,7 +1,7 @@
 ---
 layout: post
 title: SharePoint-Hosted Apps - Ortam Hazırlıkları
-date: 2013-12-20 00:19
+date: 2013-12-19 00:19
 author: hasangok
 comments: true
 Tags: [SharePoint, Sharepoint 2013, SharePoint Management Shell, SharePoint-Hosted App]
