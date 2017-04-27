@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Canon EOS 1100D ile Çekilmiş Fotoğraf ve Videolar
-date: 2013-06-16 00:39
+date: 2013-06-15 00:39
 author: hasangok
 comments: true
 Tags: [Canon 50mm f1.8 lens, Canon EOS 1100D, Genel, örnek fotoğraflar]
