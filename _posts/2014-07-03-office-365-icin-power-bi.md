@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Office 365 için Power BI
-date: 2014-07-03 00:47
+date: 2014-07-02 00:47
 author: hasangok
 comments: true
 Tags: [Office365, Power BI, Q&amp;A, SharePoint]
