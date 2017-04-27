@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Windows 8 Yüklenememe Sorunu
-date: 2013-08-04 01:15
+date: 2013-08-03 01:15
 author: hasangok
 comments: true
 Tags: [Asus N56VZ, Bilgisayar, PID.txt, Ürün Anahtarı Sorunu, Windows 8]
