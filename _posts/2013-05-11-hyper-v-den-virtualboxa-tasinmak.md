@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Hyper-V'den VirtualBox'a Taşınmak
-date: 2013-05-11 00:44
+date: 2013-05-10 00:44
 author: hasangok
 comments: true
 Tags: [Bilgisayar, hyper-v, vhdx, virtualbox]
