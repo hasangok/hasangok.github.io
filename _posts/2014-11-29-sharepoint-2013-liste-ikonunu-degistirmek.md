@@ -1,7 +1,7 @@
 ---
 layout: post
 title: SharePoint 2013 Liste İkonunu Değiştirmek
-date: 2014-11-29 00:10
+date: 2014-11-28 00:10
 author: hasangok
 comments: true
 Tags: [Liste İşlemleri, PowerShell, SharePoint, Sharepoint 2013]
