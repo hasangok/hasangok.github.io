@@ -13,7 +13,7 @@ Tags: [Genel, ingbank, Kişisel]
 Sene 2015, bahar ayları... Sevgili eşimle İsveç gezimizi planlarken bir de baktık ki ne görelim! INGBank Pegasus Plus Kredi kartı alana tek yön uçak bileti hediye ediyor. Zaten kredi kartı alsak diye düşündüğümüz vakitler... Hadi diyoruz başvuralım madem yükümüzü hafifletelim.
 
 Gidiyoruz şubeye, yapıyoruz başvuruları. Günler, haftalar, aylar geçiyor... Biz tatilimize gidip geliyoruz. Başvurumuzdan ses seda yok. Neyse diyoruz, zaten çok da önemli değildi. Yine de arayıp soruyoruz sonuçta çarşaf çarşaf form doldurduk imza attık. Öğreniyoruz ki o başvurular hiç yapılmamış görünüyor. Yani 4. Levent şubedeki hanımefendiler, bize doldurup imzalattıkları formlara muhtemelen döner sarıp yemişler :) Afiyetler olsun, yarasın efendim.
-
+<!--more-->
 Günlerden bir gün arkadaşlarımızın da tavsiyeleriyle Pegasus Plus Kredi Kartı almaya *-tekrar-* karar veriyoruz. Sevgili eşim gidiyor ve o formları tekrar dolduruyor, tekrar imzalıyor. Yine günler geçiyor, "*en geç şu tarihte teslim edilir*" denilen tarih gelince arayıp öğreniyoruz ki, hanımefendiler muhtemelen yine bir döner partisine kurban etmişler başvuru formlarını. "*Hiç başvurunuz alınmamış*" diyor müşteri hizmetlerinden Yıldız hanım.
 
 Madem öyle bir de ben başvurayım diyorum. İnternetten başvuru formunu dolduruyorum, sms'ler onaylar. "*İşte bu kez oldu!*" derken, beni şubeye çağırıyorlar başvuruyu tamamlamak için :( Madem şubeye gelecektim neden o formu doldurdum neden sms aldım verdim, onayladım? Neyse efendim, telefon ile başvuru yaparsak şubeye gitmek gerekmediğini öğreniyoruz ve yeni bir macera başlıyor: "*Sen git baban gelsin*" :)
