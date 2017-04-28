@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Google Hizmletleri-Bölüm 2: Google Wave
+title: Google Hizmletleri-Bölüm 2 - Google Wave
 date: 2009-11-30 21:04
 author: hasangok
 comments: true
