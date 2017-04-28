@@ -18,10 +18,10 @@ Sayın rektörümüzün hoş geldiniz konuşması da içler acısıydı diye dü
 
 Konuyu toplayacak olursak; katılanlar, dedelerimizin hayat tecrübelerinden ve tavsiyelerinden kendilerine ufak çıkarımlar yapmıştır eminim. Eee görmüş geçirmiş adamlar tabi, boş konuşmuyorlar... Sizlerle de bu konferanstan alınmış birkaç fotoğraf paylaşıp yazımı noktalamak istiyorum. Resimler aşağıda (Sağdaki üçlü sırayla Jim Lovell, Neil Armstrong, Gene Cernan). Esen kalın efendim...
 
-![neil_jim_cu](http://www.hasangok.com.tr/wp-content/uploads/2010/03/neil_jim_cu_1.jpg)
+![neil_jim_cu](https://raw.githubusercontent.com/hasangok/hasangok.github.io/master/uploads/2010/03/neil_jim_cu_1.jpg)
 
-![neil_jim_cu](http://www.hasangok.com.tr/wp-content/uploads/2010/03/neil_jim_cu_2.jpg)
+![neil_jim_cu](https://raw.githubusercontent.com/hasangok/hasangok.github.io/master/uploads/2010/03/neil_jim_cu_2.jpg)
 
-![neil_jim_cu](http://www.hasangok.com.tr/wp-content/uploads/2010/03/neil_jim_cu_3.jpg)
+![neil_jim_cu](https://raw.githubusercontent.com/hasangok/hasangok.github.io/master/uploads/2010/03/neil_jim_cu_3.jpg)
 
 Fotoğraflar: Kaan Uzer ;)
