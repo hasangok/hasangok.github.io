@@ -8,12 +8,11 @@ categories: [C#, GetStringInBetween, HTML tagları arasındaki bilgiyi alma]
 ---
 Bir web sayfasında belli HTML etiketleri arasındaki bir bölümü, ya da elinizdeki herhangi metnin belli bir bölümünü seçip almak isteyebilirsiniz. Örneğin web siteniz için yazdığınız programın başlığını, sitenizden almak istediniz. Ne yapmanız gerekir? Tabi ki, sayfanızdaki &lt;title&gt; ve &lt;/title&gt; arasındaki bilgiye ulaşmanız...
 
-![csharp_logo](http://www.hasangok.com.tr/wp-content/uploads/2009/10/csharp_logo.gif)  
+![csharp_logo](https://raw.githubusercontent.com/hasangok/hasangok.github.io/master/uploads/2009/10/csharp_logo.gif)  
 İşte ben de, C# ile HTML kodları arasında gezinip "Böyle bir şeyi nasıl yapabilirim?" sorusuna cevap ararken, küçük bir araştırma sonucu elde ettiğim harika bir metodu paylaşacağım sizlerle: GetStringInBetween...
 
 Bir metindeki belli bir bölüme ya da belli HTML etiketleri arasındaki bilgiye ulaşmak GetStringInBetween ile oldukça basitleşiyor. Öncelikle programınıza eklemeniz gereken metodun kodlarına göz atalım:
 
-Net görmek için kodun köşesindeki [page_white_code](http://www.hasangok.com.tr/styles/page_white_code.png) tuşuna basabilirsiniz ;)
 ```csharp
 public static string[] GetStringInBetween(string strBegin, string strEnd, string strSource, bool includeBegin, bool includeEnd)
 {
