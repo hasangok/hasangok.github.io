@@ -8,7 +8,7 @@ categories: [aero shake, çukurova üniversitesi, Okuldan, ribbon menü, snap, w
 ---
 Üniversitemizde yapılan *"Windows 7 - Çukurova Üniversitesi Lansmanı"* adlı etkinliğe katıldım 2 Kasım 2009 tarihinde. Windows 7 hakkında bahsedilecekleri herkes gibi bende merak ediyordum. Ama böylesini beklemiyordum tabi ki...
 
-![win7](http://www.hasangok.com.tr/wp-content/uploads/2009/11/win7.jpg)
+![win7](https://raw.githubusercontent.com/hasangok/hasangok.github.io/master/uploads/2009/11/win7.jpg)
 
 Konuşmacımız "Muhammer Benzeş" uzun uzun (*ama gerçekten uzun*) Windows'un *başlat menüsü*nü anlattı. Pencere yapısını, yenilenmiş başlat çubuğunu, Windows 7'nin "***aero shake***" (pencereyi sallayınca diğer açık pencereleri simge durumuna göndermesi) ve ***"snap"*** (pencereyi ekranın bir kenarına sürüklediğinizde yan tarafa hizalaması) özelliklerinden bahsetti. Sonra *"**Donatılar"* kısmına atlayıp *Paint*'ten (evet bildiğimiz paint) ve eklenen *Ribbon Menü*'den (Office 2007 ile gelen sekmeli yapı) bahsetti. Sonra sıra *Hesap Makinesi*'ne geldi, onun hakkında da biraz konuşup, diğer klasik Windows araçlarından bahsedip, son on dakika içinde de multi-touch özelliğine örnek olması için tavla oynadı :)
 
