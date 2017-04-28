@@ -10,7 +10,7 @@ Daha vizelerde almış olduğum ağır yenilginin yaralarını saramamış da ol
 
 Tüm bunları düşündükçe, final zamanı yaklaşan tüm öğrenciler gibi başladım hangi dersten kaç alsam geçerim diye hesap kitap yapmaya. Adem'in de akıl etmesiyle bu ortalamayı hesaplayacak küçük bir program yazayım dedim :) Bismillah deyip açtım Visual Studio'yu, ortaya bu çıktı :)
 
-![OrtalamaHesaplayici](http://www.hasangok.com.tr/wp-content/uploads/2009/12/OrtalamaHesaplayici.png)
+![OrtalamaHesaplayici](https://raw.githubusercontent.com/hasangok/hasangok.github.io/master/uploads/2009/12/OrtalamaHesaplayici.png)
 
 Programı tarife lüzum yok sanırım. İstenilen bilgileri girin, ekle tuşuna basın, ortalamanızı hesaplasın. Zaten başka ne olacaktı ki, değil mi? :)
 
