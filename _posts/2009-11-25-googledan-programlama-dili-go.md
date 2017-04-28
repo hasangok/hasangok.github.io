@@ -8,7 +8,7 @@ categories: [garbage collection, go programlama dili, google programlama dili, m
 ---
 Bir adım daha... Google bu kez bambaşka bir alana el attı ve kendi geliştirdiği programlama dilini duyurdu! Bu yeni programlama dilinin adı "***Go***".
 
-![go-logo](http://www.hasangok.com.tr/wp-content/uploads/2009/11/go-logo.png)  
+![go-logo](https://raw.githubusercontent.com/hasangok/hasangok.github.io/master/uploads/2009/11/go-logo.png)  
 Chip dergisinin sitesinde bu dil için "***Go**, özellikle çok işlemcili sistemler için uygulama geliştirmeye elverişli olacak ve nesne odaklı tasarım için sade bir başlangıç sunacak.*" denmiş. Dilin ana sayfalarında ne denmiş onun Türkçesini de dilim döndüğünce sizlerle paylaşayım. Bakalım Google bu dili nasıl tanımlıyor:
 
 ###***Go...***  
