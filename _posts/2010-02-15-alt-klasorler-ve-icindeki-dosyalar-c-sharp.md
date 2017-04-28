@@ -8,8 +8,7 @@ categories: [altklasörler, C#, tüm dosyalara ulaşma]
 ---
 Laf olsun, zaman geçsin, elim alışsın, gözüm aşina olsun, kulağım dolsun gibi amaçlarla **Klasör Eşitleyici** diye bir program yazıyorum. Piyasada tonla örneği olsa da "terzi kendi söküğünü diksin!" bu sefer dedim, kendim yazıp kendim kullanayım istedim.
 
-Programın yapacağı iş basit: Yolunu verdiğimiz iki klasörün içeriğini karşılaştırıp birinde olup diğerinde olmayan dosyaları gerekli yerlere kopyalayıp iki klasörün içeriğini eşitleyecek. Mantık basit ama koda dökerken biraz tıkandım, rekürsif metot kullanmamaya karar verdim. Onun yerine becerikli bulduğum bir metodun tek satırlık örneğini sizlerle de paylaşmak istedim: (rahat görebilmek için ![code](http://www.hasangok.com.tr/styles/page_white_code.png) 'e tıklayınız)
-
+Programın yapacağı iş basit: Yolunu verdiğimiz iki klasörün içeriğini karşılaştırıp birinde olup diğerinde olmayan dosyaları gerekli yerlere kopyalayıp iki klasörün içeriğini eşitleyecek. Mantık basit ama koda dökerken biraz tıkandım, rekürsif metot kullanmamaya karar verdim. Onun yerine becerikli bulduğum bir metodun tek satırlık örneğini sizlerle de paylaşmak istedim:
 ```csharp
 string[] dosyalar = Directory.GetFiles(@"C:\KlasörYolu\","*", SearchOption.AllDirectories);
 ```
