@@ -16,7 +16,7 @@ Velhasıl, oyunu tamamladım tamamlamaya. Birkaç ufak eksiği kaldı, puanları
 
 Ekran Görüntüsü:
 
-![HafizaOyunu](http://www.hasangok.com.tr/wp-content/uploads/2010/04/HafizaOyunu.jpg)
+![HafizaOyunu](https://raw.githubusercontent.com/hasangok/hasangok.github.io/master/uploads/2010/04/HafizaOyunu.jpg)
 
 Buyrun [buradan](http://www.hasangok.com.tr/dosyalar/HafizaOyunu.zip) da dosyaları indirin.
 
