@@ -6,7 +6,7 @@ author: hasangok
 comments: true
 categories: [açıköğretim, anadolu üniversitesi, ikinci üniversite, işletme, Kendimden]
 ---
-![](http://www.hasangok.com.tr/wp-content/uploads/2009/10/anadoluuni.jpg)  
+![](https://raw.githubusercontent.com/hasangok/hasangok.github.io/master/uploads/2009/10/anadoluuni.jpg)  
 Bir yükseköğretim programında okuyan ya da mezun olanlara yönelik bu uygulamayı biliyorsunuzdur. Anadolu Üniversitesinin "İkinci Üniversite" imkanı sayesinde ÖSS'ye girmeden iki veya dört yıllık bir bölüm bitirip, ikinci diplomanızı alabiliyorsunuz.
 
 26 Ekim 2009 tarihinde başvuruları başlayan ve 20 Kasım'a kadar devam edecek olan bu programa ben de katılıp "İşletme" bölümü okumaya başlayacağım inşallah :) Bir yandan gerekli evrakları toplarken bir yandan da başvurmak isteyecekleri bilgilendirmiş olmak için bu yazıyı yazmak istedim. Konu ile ilgili ayrıntılı bilgiyi [burada](http://www.anadolu.edu.tr/aos/program_brosurleri/ikinci_universite_olanagi.aspx) bulabilirsiniz ama ben yine de yazımda yer vermek istiyorum.
