@@ -10,7 +10,7 @@ categories: [desktop, Diğer, windows]
 
 Windows'un durduk yere yamuk yapma ihtimaline karşı "Belgeler, Resimler, Videolar, Müzikler vs." gibi gklasörleri Windows'un kurulu olduğu sürücüde saklamam. Böylece işletim sistemini çökerttiğimde ya da o benim yerime kendi kendini çökerttiğinde format atmaktan çekinmiyorum. Daha doğrusu çekinmiyordum. Ta ki masaüstümde de can alıcı dosyaları kaybetmenin eşiğine gelinceye kadar!
 
-![masaustu](http://www.hasangok.com.tr/wp-content/uploads/2010/06/masaustu.jpg)
+![masaustu](https://raw.githubusercontent.com/hasangok/hasangok.github.io/master/uploads/2010/06/masaustu.jpg)
 
 Gelen e-postaların eklentileri, internetten bulduğum faydalı bilgiler, e-kitaplar, ders notları, yazdığım programcıklar vb. sık sayılabilecek aralıklarla kullandığım herşeyi masaüstüne atar oldum. O kadar ki, masaüstüm zaman zaman yukarıdakine benziyor. Bu dosyaları bir süre masaüstümde bekletir ve daha az kullanılır olduğum zaman ilgili klasörlere aktarırım. Ama geçen gün yaşadığım talihsiz olayla masaüstümdeki dosyalarımı her an kaybedebileceğim gerçeğiyle yüzleştim ve karar verdim: Windows kurduğun sürücüde önemli dosyalarını saklamayacaksın!
 
