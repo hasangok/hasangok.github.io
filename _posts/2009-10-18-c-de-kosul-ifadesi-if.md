@@ -1,6 +1,6 @@
 ---
 layout: post
-title: C’de Koşul İfadesi: if
+title: C'de Koşul İfadesi - if
 date: 2009-10-18 22:22
 author: hasangok
 comments: true
