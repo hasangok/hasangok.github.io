@@ -17,6 +17,6 @@ $spsite.FileNotFoundUrl = "/Pages/404.aspx"
 2. **SharePoint Designer**:
 Siteye bağlandığımızda sağ üstteki "*Site Options*" butonuna basıp "*vti_filenotfoundpage*" adlı kaydın değerini değiştirmek.
 
-![vti_filenotfoundpage](https://raw.githubusercontent.com/hasangok/hasangok.github.io/master/uploads/2015/06/vti_filenotfoundpage.png "vti_filenotfoundpage")
+>![vti_filenotfoundpage](https://raw.githubusercontent.com/hasangok/hasangok.github.io/master/uploads/2015/06/vti_filenotfoundpage.png "vti_filenotfoundpage")
 
 İyi çalışmalar...
