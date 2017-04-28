@@ -80,5 +80,4 @@ Bir de bakalım tadınığımız futbolcular o zamanlar kaç yaşındaymış: :D
 
 Gülmemek elde değil gerçekten :) Ama üzülme fenerbahçe. Gün gelir sizin özleminiz de biter. Beşiktaş da 6 yıldır şampiyon olamıyor sabırla bekliyoruz. Ama doğru sizinki 6 değil 26 yıldı değil mi? :p Son olarak da aşağıdaki resmi sizlerle paylaşmak istiyorum.Buyrun birlikte gülelim :)
 
-![kupayi-gordum](http://hasantest.esy.es/wp-content/uploads/2009/05/kupayi-gordum.jpg)
-
+![kupayi-gordum](https://raw.githubusercontent.com/hasangok/hasangok.github.io/master/uploads/2009/05/kupayi-gordum.jpg)
