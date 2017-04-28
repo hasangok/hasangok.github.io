@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Faydalı Bilgi: Masaüstü Klasörünün Konumunu Değiştirebilirsiniz
+title: Faydalı Bilgi - Masaüstü Klasörünün Konumunu Değiştirebilirsiniz
 date: 2010-06-07 00:30
 author: hasangok
 comments: true
