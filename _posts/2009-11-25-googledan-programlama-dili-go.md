@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Google'dan Programlama Dili: Go!
+title: Google'dan Programlama Dili - Go!
 date: 2009-11-25 03:52
 author: hasangok
 comments: true
