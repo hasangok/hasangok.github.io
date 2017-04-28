@@ -12,6 +12,6 @@ Sınıf arkadaşlarıma dağıtmak için Ubuntu'dan CD göndermelerini istemişt
 
 Lafı uzatacak bir konu değil burada son vereyim yazıma. Tekrar teşekkürler Ubuntu!
 
-![ubuntu](http://www.hasangok.com.tr/wp-content/uploads/2010/03/ubuntu_2.jpg)
+![ubuntu](https://raw.githubusercontent.com/hasangok/hasangok.github.io/master/uploads/2010/03/ubuntu_2.jpg)
 
-![ubuntu](http://www.hasangok.com.tr/wp-content/uploads/2010/03/ubuntu_1.jpg)
+![ubuntu](https://raw.githubusercontent.com/hasangok/hasangok.github.io/master/uploads/2010/03/ubuntu_1.jpg)
