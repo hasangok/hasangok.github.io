@@ -10,6 +10,6 @@ categories: [beşiktaş, Diğer, şampiyon]
 
 Bugünkü sevinci bana yaşatan takımıma teşekkür ediyor ve şampiyonluğu getiren golleri paylaşıyorum sizlerle.
 
-<embed type="application/x-shockwave-flash" width="720" height="630" src="http://rd3.videos.sapo.pt/play?file=http://rd3.videos.sapo.pt/7R4gaK1lWznMhIAQVnsm/mov/1" allowfullscreen="true" data="http://rd3.videos.sapo.pt/play?file=http://rd3.videos.sapo.pt/7R4gaK1lWznMhIAQVnsm/mov/1"></embed>
+<embed type="application/x-shockwave-flash" width="720" height="630" src="http://rd3.videos.sapo.pt/play?file=http://rd3.videos.sapo.pt/7R4gaK1lWznMhIAQVnsm/mov/1" allowfullscreen="true" data="http://rd3.videos.sapo.pt/play?file=http://rd3.videos.sapo.pt/7R4gaK1lWznMhIAQVnsm/mov/1" />
 
-<embed type="application/x-shockwave-flash" width="720" height="630" src="http://rd3.videos.sapo.pt/play?file=http://rd3.videos.sapo.pt/GzajzR3MadAtFZuCzu92/mov/1" allowfullscreen="true" data="http://rd3.videos.sapo.pt/play?file=http://rd3.videos.sapo.pt/GzajzR3MadAtFZuCzu92/mov/1"></embed>
+<embed type="application/x-shockwave-flash" width="720" height="630" src="http://rd3.videos.sapo.pt/play?file=http://rd3.videos.sapo.pt/GzajzR3MadAtFZuCzu92/mov/1" allowfullscreen="true" data="http://rd3.videos.sapo.pt/play?file=http://rd3.videos.sapo.pt/GzajzR3MadAtFZuCzu92/mov/1" />
