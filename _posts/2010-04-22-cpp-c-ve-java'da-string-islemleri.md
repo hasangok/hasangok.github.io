@@ -28,11 +28,13 @@ string str = "Hasan Gok"; //(string.h kütüphanesi yardımı ile)
 Bu üç dil için stringler üzerinde yapılan işlemlerden birkaç tanesine göz atalım. Tüm işlemlerde kullanmak için üç dil için de, içeriği farklı iki string değişkeni oluşturalım.
 
 **Java:**
-```javaString str1 = new String("Hasan");
+```java
+String str1 = new String("Hasan");
 String str2 = new String("Gok");
 ```
 **C#:**
-```csharpstring str1 = "Hasan";
+```csharp
+string str1 = "Hasan";
 string str2 = "Gok";
 ```
 **C++:**
