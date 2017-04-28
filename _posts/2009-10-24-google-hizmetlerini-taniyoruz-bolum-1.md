@@ -11,19 +11,19 @@ Google şüphesiz dünyanın en iyi arama motoru ve en büyük firmalarından bi
 Aşağıda bazı Google ürünlerinden bahsedeceğim ve sizlere genel bilgi vermeye çalışacağım. Eminim bir gün bu ürünlerden birini kullanma ihtiyacı hissedeceksiniz, o zaman dönüp Hasan ne yazmıştı acaba dersiniz :) Şimdi başlayalım:
 
 ###Google Adsense:  
-![google_adsense](http://www.hasangok.com.tr/wp-content/uploads/2009/10/google_adsense.gif)
+![google_adsense](https://raw.githubusercontent.com/hasangok/hasangok.github.io/master/uploads/2009/10/google_adsense.gif)
 
 Bu güzide Google hizmeti, web sitenizden para kazanmanızı sağlar. Sitenize yerleştirdiğiniz kodlar, içeriğiniz ile ilgili reklamları sayfalarınızda gösterir. Tıklandıkça, reklam verenin belirlediği ücret hesabınıza eklenir. Hesabınız 100$'a ulaştığı zaman banka hesabınıza yatırılır, ya da çek olarak gönderilir.
 
 "Adsense hizmetine kaydolmak için neler gerekir?" sorusunun ilk cevabı "kaliteli bir web sitesi"dir. Naçizane benim blogum da bu kalite kriterlerinden geçmiş bir sitedir :) Özgün içerik, düzenlilik ile birlikte amacınızın "reklamlara tıklatıp köşeyi dönmek" olmaması gerekir. Siteniz ile Adsense hizmetine başvurmak için [buraya](http://www.google.com/adsense) tıklayabilirsiniz...
 
 ###Blogger:  
-![Blogger](http://www.hasangok.com.tr/wp-content/uploads/2009/10/Blogger.png)
+![Blogger](https://raw.githubusercontent.com/hasangok/hasangok.github.io/master/uploads/2009/10/Blogger.png)
 
 Tıpkı bu site gibi, kendinize bir blog (web günlüğü) açmak için en doğru tercihtir bence blogger. (Neden Wordpress kullanıyorum? Orasını karıştırmayalım :)) Blogunuzu oluşturup yazılarınızı hemen yayınlamaya başlamak için [blogger.com](http://www.blogger.com) adresine gidip, GMail hesabınızın bilgileriyle oturum açabilirsiniz. Blogger kullanarak sectiginiz_isim.blogspot.com şeklinde bir adrese sahip olursunuz.
 
 ###GMail:  
-![google_gmail](http://www.hasangok.com.tr/wp-content/uploads/2009/10/google_gmail.jpg)
+![google_gmail](https://raw.githubusercontent.com/hasangok/hasangok.github.io/master/uploads/2009/10/google_gmail.jpg)
 
 Kullandığım, en sevdiğim, daima seveceğim e-posta hizmetidir. Saymakla bitmeyecek kadar çok özelliğe sahiptir. Her geçen gün yeni bir özellik GMail'e eklenmektedir. Bu güzel posta servisinin başlıca özelliklerinden bahsedecek olursak:
 
@@ -40,7 +40,7 @@ Kullandığım, en sevdiğim, daima seveceğim e-posta hizmetidir. Saymakla bitm
 En çok kullandıklarımdan bahsettikten sonra GMail'in özelliklerini de burada keseyim. İşte anlayacağınız üzere "kullanılası" bir hizmet GMail :) [Buraya](http://www.gmail.com) tıklayıp kendinize bir hesap alabilirsiniz.
 
 ###Google Analytics:  
-![google_analytics](http://www.hasangok.com.tr/wp-content/uploads/2009/10/google_analytics.png)
+![google_analytics](https://raw.githubusercontent.com/hasangok/hasangok.github.io/master/uploads/2009/10/google_analytics.png)
 
 Sitesi olan herkes istatistiklerini merak eder ve kayıt altında tutmak ister. Siteme şu kadar zamanda kaç kişi giriyor? Sitede geçirilen ortalama süre nedir? Hangi ülkeden/şehirden kaç ziyaretçi geliyor? Ziyaretçilerin ne kadarı arama motorlarından, ne kadarı yönlendiren sitelerden geliyor? Kaç tanesi direk adresi yazıp giriyor? Arama motorlarında hangi kelimelerde aramalardan ziyaretçi alıyorum? Bu ziyaretçilerin hangisi, hangi web tarayıcısını, hangi işletim sistemini kullanıyor? Hatta hangi ekran çözünürlüğünü kullanarak web sitemi geziyor? Tüm bu soruların cevabını Google Analytics verebiliyor, oldukça ayrıntılı istatistikleri kayıt altına alıp saklıyor. İsterseniz bu kayıtları haftalık, aylık, yıllık raporlar olarak kaydedip, PDF olarak e-posta adresinize gönderiyor. Adsense hesabınız da varsa ikisini birleştirip hangi reklama ne kadar tıklanıyor bunun gibi parasal istatistikleri de öğrenebiliyorsunuz.
 
