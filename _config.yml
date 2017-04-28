@@ -22,10 +22,10 @@ footer-links:
   facebook: hasangok
   flickr:
   github: hasangok
-  instagram:
+  instagram: hasangok
   linkedin: hasangok
   pinterest:
-  rss: # just type anything here for a working RSS icon
+  rss: http://feeds.feedburner.com/hasangok
   twitter: hasangok
   stackoverflow: # your stackoverflow profile, e.g. "users/50476/bart-kiers"
   youtube: # channel/<your_long_string> or user/<user-name>
