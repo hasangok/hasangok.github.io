@@ -16,69 +16,69 @@ Yine ilk kez deneyecek arkadaşlara belirteyim, mevcut işletim sisteminiz bu ku
 
 Şimdi gelelim VirtualBox adlı programı edinmeye. [Bu adresteki](http://www.virtualbox.org/wiki/Downloads)  ilgili bağlantıdan programı indiriyorsunuz. Ben bu yazıyı yazarkenki en güncel sürümü 3.1.2, 5 dakika içinde indi. İndirdiğimiz dosyayı çalıştırıp, gerekli adımları geçip kurulumumuzu bitiriyoruz.
 
-![VirtualBox_1](http://www.hasangok.com.tr/wp-content/uploads/2010/01/VirtualBox_1.png)
+![VirtualBox_1](https://raw.githubusercontent.com/hasangok/hasangok.github.io/master/uploads/2010/01/VirtualBox_1.png)
 
-![VirtualBox_2](http://www.hasangok.com.tr/wp-content/uploads/2010/01/VirtualBox_2.png)
+![VirtualBox_2](https://raw.githubusercontent.com/hasangok/hasangok.github.io/master/uploads/2010/01/VirtualBox_2.png)
 
 Kurulum bitince masaüstümüze yerleşen VirtualBox kısayoluna tıklayıp programımızı çalıştırıyoruz. İlk açılışta kayıt ekranı gelebilir. Bunu geçebiliriz bir mahsuru yok.
 
-![VirtualBox_3](http://www.hasangok.com.tr/wp-content/uploads/2010/01/VirtualBox_3.png)
+![VirtualBox_3](https://raw.githubusercontent.com/hasangok/hasangok.github.io/master/uploads/2010/01/VirtualBox_3.png)
 
 Programın ekran görüntüsünden de anlayacağınız üzere, (kısmen de olsa) ***Türkçe***'ye çevrilmiş bir program ve nerede ne yapabileceğimizi kestirebileceğiz. İngilizce bilmeyen arkadaşlar açısından bir kolaylık olacaktır. Şimdi sanal bilgisayarımızı oluşturmak için "**Yeni**" butonuna tıklayalım.
 
-![VirtualBox_4](http://www.hasangok.com.tr/wp-content/uploads/2010/01/VirtualBox_4.png)
+![VirtualBox_4](https://raw.githubusercontent.com/hasangok/hasangok.github.io/master/uploads/2010/01/VirtualBox_4.png)
 
 Gördüğünüz gibi "***Sanal Makine Oluşturma Sihirbazı***" başladı. İleriye basınca, sanal bilgisayarımız için bir isim girmemizi ve hangi işletim sistemini yükleyeceğimizi soracak.
 
-![VirtualBox_5](http://www.hasangok.com.tr/wp-content/uploads/2010/01/VirtualBox_5.png)
+![VirtualBox_5](https://raw.githubusercontent.com/hasangok/hasangok.github.io/master/uploads/2010/01/VirtualBox_5.png)
 
 Yukarıdaki resimde de gördüğünüz üzere "***Linux***" işletim sistemi yükleyeceğimizi belirttik. Eğer Pardus'tan farklı bir dağıtım kurmak isterseniz ve "***Version***" listesinde varsa seçebilirsiniz. Pardus, seçeneklerde olmadığı için "***Other Linux***" seçip devam ediyoruz.
 
-![VirtualBox_6](http://www.hasangok.com.tr/wp-content/uploads/2010/01/VirtualBox_6.png)
+![VirtualBox_6](https://raw.githubusercontent.com/hasangok/hasangok.github.io/master/uploads/2010/01/VirtualBox_6.png)
 
 Karşımıza yukarıda gördüğünüz "***Bellek***" adımı geliyor. Sanal bilgisayarınız için bellek miktarını burada belirleyeceksiniz. Varsayılan rakam olan **256MB**, Pardus için çok yetersiz olacaktır. Bu yüzden elinizden geldiği kadar yüksek RAM ayırmanız, çalışmanızda size kolaylık sağlayacaktır. Ben bu kurulum için ***1024MB*** bellek ayırdım. Yeterlidir...
 
 **NOT:** Ayırdığınız bellek miktarı sanal bilgisayar tarafından kullanılacağı için fazla uçmamanızda fayda var. Şöyle ki **2GB** belleği olan ***Windows 7*** işletim sistemi çalışan bilgisayarımda oluşturduğum sanal bilgisayara **1500MB** bellek ayırırsam, kalan **548MB** kısım Windows için yeterli olmayacağından aşırı *yavaşlama* söz konusu olacaktır. Hala çalışmaya devam edecek Windows'u da göz önünde bulundurup makul bir miktar ayırmanız her iki işletim sisteminin de rahat çalışması açısından önemli.
 
-![VirtualBox_7](http://www.hasangok.com.tr/wp-content/uploads/2010/01/VirtualBox_7.png)
+![VirtualBox_7](https://raw.githubusercontent.com/hasangok/hasangok.github.io/master/uploads/2010/01/VirtualBox_7.png)
 
 Belleğimizi ayırdıktan sonra geriye bir de sabit diskimiz kalıyor. Bunun için de yukarıda gördüğünüz gibi yeni bir birincil sabit disk oluşturmak için "***Create new hard disk***" seçip ilerliyoruz.
 
 Sabit disk oluşturma sihirbazı sırayla depolama tipi, diskin konumu ve boyutunu soracak. Ekran görüntüsüne gerek duymuyorum sadece seçtiklerimi söyleyeyim. Depolama tipi olarak "***Dinamik olarak genişleyen kalıp***" seçebilirsiniz. Böylece ilk etapta bilgisayarınızdaki disk üzerinden küçük bir parça ayrılır, kullanım esnasında gerektikçe diskinizden kullanılır. Konum ve boyut bilgilerine gelirsek bu adımda değişiklik yapmanıza gerek yok. Varsayılan değer olan **8GB** disk alanı Pardus için yeterlidir. Bu bilgileri girdikten sonra "***Bitir***" ile sabit diskimizi de oluşturmuş oluyoruz.
 
-![VirtualBox_8](http://www.hasangok.com.tr/wp-content/uploads/2010/01/VirtualBox_8.png)
+![VirtualBox_8](https://raw.githubusercontent.com/hasangok/hasangok.github.io/master/uploads/2010/01/VirtualBox_8.png)
 
 Sanal bilgisayarımızı oluşturmadaki son aşama olarak, seçtiğimiz özelliklerin özetini görüyor ve sanal bilgisayarımızı kullanıma hazır hale getiriyoruz.
 
-![VirtualBox_9](http://www.hasangok.com.tr/wp-content/uploads/2010/01/VirtualBox_9.png)
+![VirtualBox_9](https://raw.githubusercontent.com/hasangok/hasangok.github.io/master/uploads/2010/01/VirtualBox_9.png)
 
 İşte bilgisayarımız kullanıma hazır. Sadece Pardus'u bu bilgisayara kurmak kaldı. O iş de çocuk oyuncağı ;) Eğer hala edinmemişsek [bu adresten](ftp://ftp.pardus.org.tr/pub/pardus/kurulan/2009/Pardus_2009.iso) CD kalıbını indiriyoruz. Oluşturduğumuz bilgisayarı bu CD ile başlatıp kurulum adımlarına geçeceğiz. Şimdi programımızda Pardus2009 adlı bilgisayarı seçip Başlat diyoruz. Aşağıdaki resimde gördüğünüz yere gidip CD kalıbımızı sanal bilgisayarımızın sürücüsüne takacağız.
 
-![VirtualBox_10](http://www.hasangok.com.tr/wp-content/uploads/2010/01/VirtualBox_10.png)
+![VirtualBox_10](https://raw.githubusercontent.com/hasangok/hasangok.github.io/master/uploads/2010/01/VirtualBox_10.png)
 
 Sanal Ortam Yöneticisi ekranında "***Ekle***" deyip, indirdiğimiz iso dosyasını seçiyoruz. Kurulum CD'sini bilgisayarımıza taktığımıza göre tek yapmamız gereken bilgisayarı bu CD'den başlatmak. Onun için de "***Makine***" menüsünden "***Sıfırla***" seçebilir, ya da kapatıp tekrar başlatabilirsiniz.
 
 Yeniden başlattığımızda bilgisayar CD'mizden başlayacak ve aşağıdaki ekran sizi karşılayacak.
 
-![Pardus_1](http://www.hasangok.com.tr/wp-content/uploads/2010/01/Pardus_1.png)
+![Pardus_1](https://raw.githubusercontent.com/hasangok/hasangok.github.io/master/uploads/2010/01/Pardus_1.png)
 
 Pardus 2009'u seçip Enter tuşuna basıyor ve kurulumu başlatıyoruz.
 
-![Pardus_2](http://www.hasangok.com.tr/wp-content/uploads/2010/01/Pardus_2.png)
+![Pardus_2](https://raw.githubusercontent.com/hasangok/hasangok.github.io/master/uploads/2010/01/Pardus_2.png)
 
 Lisansı kabul edip ilerliyoruz. Bir sonraki adımda CD'mizin doğruluğunu kontrol ediyoruz. Etmeyebiliriz ama etmekte fayda var. Sonraki adımlar sırayla klavye ayarımızı, zaman dilimimizi, kullanıcı adı ve parolamızı, sistem yöneticisi parolamızı (sistem ayarlarını yaparken ister), yükleyeceğimiz diski soracak. Kullanıcı adı ve parola belirlemek dışında bir ayar yapmanıza zaten gerek kalmıyor.
 
-![Pardus_3](http://www.hasangok.com.tr/wp-content/uploads/2010/01/Pardus_3.png)
+![Pardus_3](https://raw.githubusercontent.com/hasangok/hasangok.github.io/master/uploads/2010/01/Pardus_3.png)
 
 Ve artık kuruluma başlıyoruz.
 
-![Pardus_4](http://www.hasangok.com.tr/wp-content/uploads/2010/01/Pardus_4.png)
+![Pardus_4](https://raw.githubusercontent.com/hasangok/hasangok.github.io/master/uploads/2010/01/Pardus_4.png)
 
 Kurulum tamamlanıncaya kadar Pardus hakkında genel bilgiler veriliyor. Arkanıza yaslanıp bu bilgileri okuyabilir, ya da gidip başka bir işinizi halledebilirsiniz. Çünkü yukarıda yazdığı gibi 20 dakikada bitmiyor kurulum (sanal bilgisayarda).
 
 Kurulum arkaplanda süredursun, ben de size VirtualBox hakkında küçük birkaç bilgi daha vereyim.
 
-![VirtualBox_11](http://www.hasangok.com.tr/wp-content/uploads/2010/01/VirtualBox_11.png)
+![VirtualBox_11](https://raw.githubusercontent.com/hasangok/hasangok.github.io/master/uploads/2010/01/VirtualBox_11.png)
 
 VirtualBox penceresinin altındaki bu ikonlar nedir, ne işe yarıyor, bize ne gösteriyor?
 
@@ -86,19 +86,19 @@ VirtualBox penceresinin altındaki bu ikonlar nedir, ne işe yarıyor, bize ne g
 
 Bu arada o da ne? Pardus'umuz kurulmuş :)
 
-![Pardus_5](http://www.hasangok.com.tr/wp-content/uploads/2010/01/Pardus_5.png)
+![Pardus_5](https://raw.githubusercontent.com/hasangok/hasangok.github.io/master/uploads/2010/01/Pardus_5.png)
 
 Artık Pardus'u tecrübe etmemize bir arpa boyu yol kalmış. İleri deyip, sistemi yeniden başlatıyoruz.
 
-![Pardus_6](http://www.hasangok.com.tr/wp-content/uploads/2010/01/Pardus_6.png)
+![Pardus_6](https://raw.githubusercontent.com/hasangok/hasangok.github.io/master/uploads/2010/01/Pardus_6.png)
 
 Bu aşamada herşey tamalandı, Pardus gül cemalini göstermek için bizleri bekliyor :) Bu uğurda aşmamız gereken tek engel ise kurulumda belirlediğimiz kullanıcı adımızı ve parolamızı girmek :)
 
-![Pardus_7](http://www.hasangok.com.tr/wp-content/uploads/2010/01/Pardus_7.png)
+![Pardus_7](https://raw.githubusercontent.com/hasangok/hasangok.github.io/master/uploads/2010/01/Pardus_7.png)
 
 Bilgilerimizi girip oturum açtığımızda Pardus bizi güzel masaüstü ortamıyla karşılıyor. İlk açılışta, birkaç ayarı yapmak için Kaptan sizi bekliyor olacak (masaüstü arkaplanı, ağ bağlantısı vb. ayarlar).
 
-![Pardus_8](http://www.hasangok.com.tr/wp-content/uploads/2010/01/Pardus_8.png)
+![Pardus_8](https://raw.githubusercontent.com/hasangok/hasangok.github.io/master/uploads/2010/01/Pardus_8.png)
 
 İşte Pardus 2009'un masaüstü. Takdir edersiniz oldukça hoş bir görünümü var. Denerseniz göreceksiniz ki çok kullanışlı menüleri var, herşeye rahatça ulaşabiliyorsunuz.
 
