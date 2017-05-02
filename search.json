@@ -1,0 +1,18 @@
+---
+---
+[
+{% for post in site.posts %}
+{% capture tags %}{% for tag in post.tags %}{{ tag }} {% endfor %}{% endcapture %}
+{
+"title": "{{ post.title }}",
+"description": "{{ post.description }}",
+"url": "{{ post.url }}",
+"tags": {{ tags | jsonify }},
+"date": "{{ post.date | date: '%D' }}",
+"date_iso": "{{ post.date | date: '%F' }}",
+"id": "{{ post.id }}",
+"content": {{ post.content | jsonify }}
+},
+{% endfor %}
+false
+]
