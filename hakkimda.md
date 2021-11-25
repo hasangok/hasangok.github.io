@@ -17,3 +17,4 @@ permalink: /hakkimda/
 **2014**, Nisan'da Ceviz Bilgi Teknolojilerinden ayrılıp VeriPark'ta çalışmaya başladım.  
 **2015**, Ekim'de VeriPark'tan ayrılıp Türk Hava Yolları'nda çalışmaya başladım.  
 **2017**, Mart'ın 15. günü dünyanın en güzel ikinci insanı Gökçe ailemize katıldı.  
+**2020**, Kasım'da Türk Hava Yolları'ndan ayrılıp Turkcell'de çalışmaya başladım.
