@@ -1,12 +1,11 @@
 ---
-layout: post
 title: SharePoint 2013 - Farklı Kullanıcı Olarak Oturum Aç
 date: 2013-08-26 16:03
-author: hasangok
-comments: true
-Tags: [Farklı Kullanıcı Olarak Oturum Aç, SharePoint, Sharepoint 2013, Sign in as Different User]
 ---
-*SharePoint 2013*'te *Farklı Kullanıcı Olarak Oturum Aç* (*Sign in as a Different User*) özelliği kaldırılmış. Bunun yerine geri getirilmesi konusunda acı bir tecrübe yaşamışken buradan da paylaşmak istedim :)
+
+*SharePoint 2013*'te *Farklı Kullanıcı Olarak Oturum Aç* (*Sign in as a Different User*) özelliği kaldırılmış. Bunun yerine geri getirilmesi konusunda acı bir tecrübe yaşamışken buradan da paylaşmak istedim 🙂
+
+<!--more-->
 "**C:\Program Files\Common Files\Microsoft Shared\Web Server Extensions\15\TEMPLATE\CONTROLTEMPLATES**" klasörü altında bulunan "*Welcome.ascx*" dosyasını düzenleyip, "*ID_RequestAccess*" üzerine aşağıdaki ifadeyi ekliyoruz:
 
 ```xml

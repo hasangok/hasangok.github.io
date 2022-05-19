@@ -1,12 +1,11 @@
 ---
-layout: post
 title: SharePoint 2013 Takipçiler ve Takip Edilenler
 date: 2014-07-10 01:53
-author: hasangok
-comments: true
-Tags: [JavaScript, Sharepoint, SharePoint, Sosyal, takipçi]
 ---
+
 *SharePoint 2013* ile bir sosyal portal geliştiriyorsak geçerli kullanıcıya ait takipçi / takip edilen bilgilerine Javascript Object Model ile ulaşmamız gerekebiliyor. Bunu Facebook ya da Twitter'da olduğu gibi, "***x yeni takipçi***" şeklinde bir bildirim mesajı ile bu takipçilerin kim olduklarını gösterecek bir arayüz geliştirebiliriz. Aşağıdaki örnek MSDN'de bulunsa da göz önünde bulunması için paylaşmak istedim.
+
+<!--more-->
 Hepsinden önce, sayfamızda *SP.js* ve *SP.UserProfiles.js* dosyalarının sayfamıza eklenmiş olması gerekiyor. Bu kodların DOM yüklendikten sonra çalışmasını istediğimizden tabi ki *jQuery*'e de ihtiyacımız var.
 
 ```html

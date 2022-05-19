@@ -1,13 +1,11 @@
 ---
-layout: post
 title: SharePoint 2010 - Çoklu Dosya Yükleme Pasif İse
 date: 2014-09-03 16:03
-author: hasangok
-comments: true
-Tags: [Çoklu dosya yükleme, Sharepoint, SharePoint]
 ---
+
 *SharePoint 2010* kullanan bir müşterimizden, doküman kütüphanesine çoklu dosya yüklemek için yetki isteğini belirten bir mail aldım dün. Yetki ile alakalı bir durum olmadığını bilsem de daha önce detaylı araştırmadığım bir konu olduğundan kısaca buraya not etmek istedim. Çoklu dosya yükleme özelliği pasif ise, aşağıdaki maddeleri kontrol etmelisiniz:
 
+<!--more-->
 1. Çoklu dosya yükleyecek bilgisayarda *Microsoft Office* yüklü bulunmalı.
 2. İnternet Explorer'ın **32-bit** sürümünü kullanmalısınız.
 3. İnternet Explorer, *ActiveX* kontrollerinin çalışmasına izin vermeli.

@@ -1,14 +1,13 @@
 ---
-layout: post
 title: JavaScript Client Object Model ile Liste İşlemleri
 date: 2014-01-13 16:00
-author: hasangok
-comments: true
-Tags: [Client Object Model, JavaScript, Liste İşlemleri, Sharepoint, SharePoint]
 ---
-![SharePoint2010](https://raw.githubusercontent.com/hasangok/hasangok.github.io/master/uploads/2013/09/SharePoint2010.jpg)
-Bu konuyla alakalı detaylıca bir yazı hazırlama düşüncesi çok uzun zamandır aklımda ancak bir türlü gereken vakti ayıramıyorum. O yüzden detayları bir kenara bırakıp, işe girdim gireli belki de en çok kullandığım bu *JavaScript* liste işlemlerini sizlerle de paylaşmak istedim. Avantaj ve dezavantajlarından [burada](http://www.hasangok.com.tr/272/client-object-model-avantaj-ve-dezavantajlar.html) bahsettiğim konunun kod kısmını aşağıdan görebilir ve kullanabilirsiniz.
 
+![SharePoint2010](/uploads/2013/09/SharePoint2010.jpg)
+
+Bu konuyla alakalı detaylıca bir yazı hazırlama düşüncesi çok uzun zamandır aklımda ancak bir türlü gereken vakti ayıramıyorum. O yüzden detayları bir kenara bırakıp, işe girdim gireli belki de en çok kullandığım bu *JavaScript* liste işlemlerini sizlerle de paylaşmak istedim. Avantaj ve dezavantajlarından [burada](/2013/08/21/client-object-model-avantaj-ve-dezavantajlar.html) bahsettiğim konunun kod kısmını aşağıdan görebilir ve kullanabilirsiniz.
+
+<!--more-->
 **Listeye Öge Ekleme:**
 ```javascript
 var myContext = new SP.ClientContext.get_current();
@@ -97,4 +96,5 @@ function DeleteItemSuccess(sender, args) {
 }
 ```
 Vakit ayırabilirsem bir sonraki yazı, bir *jQuery* eklentisi olan *SPServices* ile ilgili olacak, bunun haberini de -kendimi yazmaya motive edebilmek adına- vermiş olayım.
+
 Hepinize iyi çalışmalar...

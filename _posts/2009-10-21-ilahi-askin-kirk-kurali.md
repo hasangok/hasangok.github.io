@@ -1,22 +1,20 @@
 ---
-layout: post
 title: İlahi Aşkın Kırk Kuralı
 date: 2009-10-21 01:52
-author: hasangok
-comments: true
-categories: [aşk, elif şafak, Kendimden, kırk kural, mevlana, tasavvuf, tebrizi şems]
 ---
+
 *"Başlı başına bir dünyadır aşk.  
 Ya tam ortasındasındır, merkezinde  
 Ya da dışındasındır, hasretinde..."*
 
 Kitap okumayı bırakın başını kaşımaya vakit bulamayan birisi olarak –hem de gözle görünür hiçbir iş yapmadığım halde- sonunda Elif Şafak'ın Aşk adlı kitabını okuma fırsatı buldum. Bir çırpıda bitirdiğim bu kitap beni derin düşüncelere itti (eminim okuyan diğer herkesi de benzer düşüncelere yöneltmiştir).
 
-Kitapta bir yandan Ella adlı karakterin aşk hayatına izleyici oluyor, diğer yanda Mevlana ve Şems Tebrizi'nin ilahi aşklarına hayret ediyorsunuz. Okudukça bir sürü düşünce dönüyor kafanızda. Aşk hayatınızı (hem ilahi hem dünyevi :)) bir daha gözden geçiriyorsunuz. Kısaca kitabın etkisine giriyor ve göz açıp kapatıncaya kadar tüm hikayeyi yaşıyorsunuz...
+<!--more-->
+Kitapta bir yandan Ella adlı karakterin aşk hayatına izleyici oluyor, diğer yanda Mevlana ve Şems Tebrizi'nin ilahi aşklarına hayret ediyorsunuz. Okudukça bir sürü düşünce dönüyor kafanızda. Aşk hayatınızı (hem ilahi hem dünyevi 🙂) bir daha gözden geçiriyorsunuz. Kısaca kitabın etkisine giriyor ve göz açıp kapatıncaya kadar tüm hikayeyi yaşıyorsunuz...
 
-Kitapta beni derinden etkileyen "*tasavvuf*" kısmı oldu. İlahi Aşk üzerine düşünme ihtiyacı duydum hala da düşünmekteyim. Bir sürü "acaba?" sorusuyla teste tabi tuttum kendimi. Sonuç pek iç açıcı değildi :) Hayırlısı...
+Kitapta beni derinden etkileyen "*tasavvuf*" kısmı oldu. İlahi Aşk üzerine düşünme ihtiyacı duydum hala da düşünmekteyim. Bir sürü "acaba?" sorusuyla teste tabi tuttum kendimi. Sonuç pek iç açıcı değildi 🙂 Hayırlısı...
 
-Kitapta öne çıkan; Şems'in "*Gönlü geniş ve ruhu gezgin sufi meşreplilerin kırk kuralı*"nı sizlerle de paylaşmak istedim. Bu kırk kuralı vermeden önce şunu da belirtmek istiyorum: Bu kurallar Şems'in yazdığı kurallar değil tamamen yazarın kurgusu. Gerçekten Şems'in kuralları olduğunu düşünenler olmuş bunu da not edeyim dedim :)
+Kitapta öne çıkan; Şems'in "*Gönlü geniş ve ruhu gezgin sufi meşreplilerin kırk kuralı*"nı sizlerle de paylaşmak istedim. Bu kırk kuralı vermeden önce şunu da belirtmek istiyorum: Bu kurallar Şems'in yazdığı kurallar değil tamamen yazarın kurgusu. Gerçekten Şems'in kuralları olduğunu düşünenler olmuş bunu da not edeyim dedim 🙂
 
 Ve işte gönlü geniş ve ruhu gezgin sufi meşreplilerin kırk kuralı:
 >>***Birinci Kural:*** Yaradanı hangi kelimelerle tanımladığımız, kendimizi nasıl gördüğümüze ayna tutar. Şayet Tanrı dendi mi öncelikle korkulacak, utanılacak bir varlık geliyorsa aklına, demek ki sende korku ve utanç içindesin çoğunlukla. Yok eğer Tanrı dendi mi evvele aşk, merhamet ve şefkat anlıyorsan, sende de bu vasıflardan bolca mevcut demektir.
@@ -105,4 +103,4 @@ Tek bir gün bile tıpatıp aynıysa yazık. Her an her nefeste yenilenmeli. Yep
 >>***Kırkıncı Kural:*** Aşksız geçen bir ömür beyhude yaşanmıştır. Acaba ilahi aşk peşinde mi koşmalı, mecazi mi, yoksa dünyevi, semavi ya da cismani diye sorma! Ayrımlar ayrımları doğurur. AŞK'ın ise hiçbir sıfat ve tamlamaya ihtiyacı yoktur. Başlı başına bir dünyadır aşk. Ya tam ortasındasındır, merkezinde, ya da dışındasındır, hasretinde.
 
 Bu kurallarla yaşayabilenlerden olmak dileğiyle,  
-Aşkla kalın... ;)
+Aşkla kalın... 😉

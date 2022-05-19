@@ -1,15 +1,13 @@
 ---
-layout: post
 title: C++, C# ve Java'da String İşlemleri
 date: 2010-04-22 00:40
-author: hasangok
-comments: true
-categories: [C, Java, Programlama, string]
 ---
+
 **String Tanımlama ve Atama**
 
 Java ve C# dillerinde stringler referans veri tipi olarak tanımlıdır. C++'da ise stringler karakter dizisi olmak zorundadır. C++'da string.h kütüphanesi yardımı ile stringler, sınıflardan türeyen nesneler olarak oluşturulup kullanılabilmektedir. Her dil için string tanımlamaya örnek verelim.
 
+<!--more-->
 **Java:**
 ```java
 String str = new String("Hasan Gok");

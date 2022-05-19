@@ -1,7 +1,7 @@
 ---
-layout: page
 title: Hakkımda
-permalink: /hakkimda/
+description: hayatımın gelişmelerini kronolojik olarak aşağıda bulabilirsiniz
+subtitle: hayatımın gelişmelerini kronolojik olarak aşağıda bulabilirsiniz
 ---
 
 **1988**, Nisan ayında "Merhaba Dünya!" dedim.  
@@ -17,4 +17,5 @@ permalink: /hakkimda/
 **2014**, Nisan'da Ceviz Bilgi Teknolojilerinden ayrılıp VeriPark'ta çalışmaya başladım.  
 **2015**, Ekim'de VeriPark'tan ayrılıp Türk Hava Yolları'nda çalışmaya başladım.  
 **2017**, Mart'ın 15. günü dünyanın en güzel ikinci insanı Gökçe ailemize katıldı.  
-**2020**, Kasım'da Türk Hava Yolları'ndan ayrılıp Turkcell'de çalışmaya başladım.
+**2020**, Kasım'da Türk Hava Yolları'ndan ayrılıp Turkcell'de çalışmaya başladım.  
+**2022**, Mayıs ayında Turkcell'deki görevimden ayrıldım ve hayallerimin peşine düştüm. 😇

@@ -1,12 +1,11 @@
 ---
-layout: post
 title: C’de Veri Tipleri
 date: 2009-05-20 19:02
-author: hasangok
-comments: true
-categories: [C Programlama, C'de veri tipleri, tipi, veri]
 ---
+
 Önceki yazılarımda scanf ile klavyenizden bir tamsayı değeri okuyup bunları ekranda printf fonksiyonu ile yazdırmıştık. Dikkat ettiyseniz yaptığımız örneklerde hep %d ile tamsayıları kullandık. Peki programımızda ondalık sayılar, karakterler ya da dizgiler (string) kullanmamız gerektiği zaman ne olacak? İşte o zaman aşağıdaki tablo yardımımıza koşacak.
+
+<!--more-->
 
 | **Kullanım**  | **Veri Tipi**                          |
 | ------------- |--------------------------------------- |
@@ -39,4 +38,4 @@ Yukarıdaki tabloda en önemli veri tiplerinden biri de dizgiler (yani stringler
 
 Bir sonraki yazımda şu ana kadar bildiğimiz her şeyi içeren bir örnek yapıp sonrasında karşılaştırma komutlarından bahsederiz (if ile başlarız, while, do-while, for diye devam ederiz).
 
-O zamana kadar kendinize iyi bakın. Benden ayrılmayın... ;)
+O zamana kadar kendinize iyi bakın. Benden ayrılmayın... 😉

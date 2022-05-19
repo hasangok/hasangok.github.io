@@ -1,14 +1,12 @@
 ---
-layout: post
 title: SharePoint SmallSearchInputBox Kontrolünü Özelleştirmek
 date: 2014-03-17 10:00
-author: hasangok
-comments: true
-Tags: [Search Service, Sharepoint, SharePoint, SmallSearchInputBox]
 ---
+
 *SharePoint* arayüzünde bulunan bu küçük arama kutusunu, belirlediğimiz farklı bir arama sayfasını kullanması veya arama yapmadan önce scope seçimi yapılabilmesi için özelleştirmek isteyebiliyoruz. Bunu yapmak için *Visual Studio* ile *SmallSearchInputBox* kontrolünü override etmemiz mümkün. Yapmamız gereken *SharePoint* projemize, adı *SmallSearchInputBox* olan yeni bir *Empty Element* ekleyip, **Elements.xml** dosyasının içeriğini aşağıdakilerle değiştirmek:
 
-```html
+<!--more-->
+```xml
 <?xml version="1.0" encoding="utf-8"?>
 <Elements xmlns="http://schemas.microsoft.com/sharepoint/">
   <Control Id="SmallSearchInputBox"
@@ -28,4 +26,5 @@ Tags: [Search Service, Sharepoint, SharePoint, SmallSearchInputBox]
 </Elements>
 ```
 Oluşturduğumuz bu kontrolü içerisine koyduğumuz özelliğin (*feature*) mutlaka ***Site*** scope'unda deploy edilmesi gerekiyor. Deploy ettikten sonra arama kutunuz değişmiyorsa, daha küçük *Sequence* değerleriyle tekrar deploy edip deneyebilirsiniz.
+
 İyi çalışmalar...

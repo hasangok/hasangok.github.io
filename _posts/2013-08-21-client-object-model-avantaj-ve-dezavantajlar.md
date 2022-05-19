@@ -1,12 +1,11 @@
 ---
-layout: post
 title: Client Object Model - Avantaj ve Dezavantajlar
 date: 2013-08-21 15:43
-author: hasangok
-comments: true
-Tags: [Client Object Model, Sharepoint, SharePoint]
 ---
+
 Üzerinde çalıştığım son birkaç projedir *Client Object Model* kullanıyorum. Bugün ofiste böyle bir tartışma da çıkınca blogumda yer vermek istedim. İşte *Client Object Model*'in avantaj ve dezavantajları.
+
+<!--more-->
 **Avantajlar:**
 
 1. *JavaScript* kullanılarak kullanıcı tarafındaki web tarayıcısından *SharePoint* verilerine ulaşabiliyoruz.

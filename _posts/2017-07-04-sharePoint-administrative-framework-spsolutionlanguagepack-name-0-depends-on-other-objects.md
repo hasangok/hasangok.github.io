@@ -1,13 +1,11 @@
 ---
-layout: post
 title: An object in the SharePoint administrative framework, "SPSolutionLanguagePack Name=0", depends on other objects which do not exist.
 date: 2017-07-04 10:50
-author: hasangok
-comments: true
-Tags: [SharePoint]
 ---
 
 Sunucuda mevcut bir paketi retract/uninstall yaptıktan hemen sonra tekrar eklemeye çalıştığımızda aşağıdaki hatayı almak muhtemel. Sebebi, paketi sildikten sonra arka planda çalışmaya devam eden temizlik işleri bitmeden aynı paketi tekrar eklemeye çalışıyor olmamız.
+
+<!--more-->
 ```
 Add-SPSolution : An object in the SharePoint administrative framework, "SPSolutionLanguagePack Name=0",  
 depends on other objects which do not exist. Ensure that all of the objects dependencies are created  

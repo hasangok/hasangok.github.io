@@ -1,12 +1,11 @@
 ---
-layout: post
 title: SharePoint User Profile'daki Hatalı Profil Resmi URL'lerin Düzeltilmesi
 date: 2013-10-28 15:48
-author: hasangok
-comments: true
-Tags: [PowerShell, PowerShell, Profil Resmi, Sharepoint, SharePoint, User Profile]
 ---
-Bu yazıma, yakın zamanda *Active Directory*'deki kullanıcı profil resimlerinin nasıl *SharePoint User Profile*'a çekilebileceğini açıklayan bir yazı da yazacağımı belirterek başlamak istiyorum. Ancak önce elimizdeki problemi çözelim ;)
+
+Bu yazıma, yakın zamanda *Active Directory*'deki kullanıcı profil resimlerinin nasıl *SharePoint User Profile*'a çekilebileceğini açıklayan bir yazı da yazacağımı belirterek başlamak istiyorum. Ancak önce elimizdeki problemi çözelim 😉
+
+<!--more-->
 En son karşılaştığım ve çözmek zorunda olduğum sorun buydu: *Active Directory*'de tanımlı kullanıcı resimleri, *SharePoint User Profile*'a aktarılmıştı ancak tüm resim URL'leri hatalıydı. Bu yüzden *arama sonuçları* ve *My Site* gibi yerlerde kullanıcıların resimleri yerine çarpı işaretleri görüyorduk. *URL'deki problem ise site adresinden sonra tek bir '/' karakterinin eksik olmasıydı*.
 Profil resimlerinin URL'leri şu şekilde görünüyordu:
 

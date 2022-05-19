@@ -1,13 +1,11 @@
 ---
-layout: post
 title: Döküman Kütüphanesinde Özellikleri Düzenle Diyalogunun Atlanması
 date: 2013-10-03 17:01
-author: hasangok
-comments: true
-Tags: [Döküman Kütüphanesi, JavaScript, Özellikleri Düzenle, Sharepoint, SharePoint, SharePoint Designer]
 ---
+
 *SharePoint 2013*'te, bir döküman kütüphanesine dosya yüklenmesi sonrası açılan "**Özellikleri Düzenle**" (*Edit Properties*) diyalogunun atlanmasına ihtiyacım vardı. Bunu yapacak JavaScript kodları şu şekilde:
 
+<!--more-->
 ```javascript
   _spBodyOnLoadFunctionNames.push("Redirect");
   function Redirect()
@@ -42,5 +40,7 @@ Bunu ilgili yere eklemenin iki yolu var. Birincisi, "*Özellikleri Düzenle*" pe
 ```html
 <asp:Content ContentPlaceHolderId="PlaceHolderMain" runat="server">
 ```
-![sharepoint-designer](https://raw.githubusercontent.com/hasangok/hasangok.github.io/master/uploads/2013/10/sharepoint-designer.png)
-Ben bu yöntemi *SharePoint 2013* için kullandım ve başarılı oldum. Aynısı *SharePoint 2010* için de kullanılabilir. Yazının İngilizce versiyonuna <a title="Bypass Edit Properties Dialog After Uploading to a Document Library" href="http://www.hasangok.com.tr/383/bypass-edit-properties-dialog-after-uploading-to-a-document-library.html">buradan</a> ulaşabilirsiniz.
+
+![sharepoint-designer](/uploads/2013/10/sharepoint-designer.png)
+
+Ben bu yöntemi *SharePoint 2013* için kullandım ve başarılı oldum. Aynısı *SharePoint 2010* için de kullanılabilir.

@@ -1,11 +1,8 @@
 ---
-layout: post
 title: İlk C Programımız
 date: 2009-04-03 22:07
-author: hasangok
-comments: true
-categories: [C, C Programlama, ilk, program]
 ---
+
 Her kitapta ilk program olarak ekrana "Merhaba Dünya" diye yazdırılır adettendir. Ben de adeti bozmayıp aynı programı anlatmaya çalışacağım sizlere. Mini programımızın kodları aşağıdaki gibi olacak. Bir göz aşinalığı olması açısından tamamını (noktası virgülü dahil) bir okuyun. Sonra da açıklamalarımıza devam edelim.
 ```c
 #include<stdio.h>
@@ -15,6 +12,8 @@ int main(void)
 	return 0;
 }
 ```
+
+<!--more-->
 İşte bu C ile yazdığımız ilk programımız olacak. Derleyip çalıştırdığınızda komut isteminde siyah bir ekran açılacak ve "Selamun aleykum" yazacak. (Derlemek de nedir? diye soranlar yazımın devamını sabırla okusun)
 
 Şimdi bu programı satır satır inceleyip hangi kodun ne iş yaptığını açıklamaya çalışalım.
@@ -43,9 +42,9 @@ Tamam ama bütün bunları nereye yazacağım ben ne şekilde çalıştıracağ�
 
 Dev-C++ programımızı çalıştırdıktan sonra Dosya &gt; Yeni &gt; Kaynak Dosyası (File &gt; New &gt; Source File) yolunu takip ederek kendimize kodlarımızı yazabileceğimiz, kalbimiz kadar temiz bir sayfa açıyoruz. Buraya yukarıdaki şekilde kodlarımızı yazıyoruz. Ve Çalıştır &gt; Derle &amp; Çalıştır (Execute &gt; Compile &amp; Run) yolunu izleyerek önce dosyamızı kaydediyor. Sonra derliyor, sonra da çalıştırıyoruz.
 
-Bi çok arkadaş "İyi ama hemen kapanıyor hiçbirşey göremiyorum" diyecektir. Bunun sebebi hatalı kodlama yapmanız değildir. Windows’un dos uygulamalarına olan gıcığıdır :D Eğer programınızı daha sağlıklı görüntülemek istiyorsanız (yani daha göremeden kaybolmasın) Komut İstemi ile programınıza ulaşıp çalıştırabilirsiniz.
+Bi çok arkadaş "İyi ama hemen kapanıyor hiçbirşey göremiyorum" diyecektir. Bunun sebebi hatalı kodlama yapmanız değildir. Windows’un dos uygulamalarına olan gıcığıdır 😁 Eğer programınızı daha sağlıklı görüntülemek istiyorsanız (yani daha göremeden kaybolmasın) Komut İstemi ile programınıza ulaşıp çalıştırabilirsiniz.
 
-İlk programımızı böylece yazıp başarıyla çalıştırmış olduk. Çok güzel anlattığım için kendimi, çok güzel anladığın için de seni tebrik ediyorum ;)
+İlk programımızı böylece yazıp başarıyla çalıştırmış olduk. Çok güzel anlattığım için kendimi, çok güzel anladığın için de seni tebrik ediyorum 😉
 
 Konuyla alakalı bir sonraki yazımda printf ve scanf komutları üzerinde duracağım. Değişken tanımlama, bu değişkenlere değer atama gibi basit şeyleri de aradan çıkaracağım.
 

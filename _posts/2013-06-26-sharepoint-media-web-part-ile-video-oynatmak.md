@@ -1,13 +1,11 @@
 ---
-layout: post
 title: SharePoint Media Web Part ile Video Oynatmak
 date: 2013-06-26 16:46
-author: hasangok
-comments: true
-Tags: [Javascript, Media Webpart, Sharepoint, SharePoint]
 ---
+
 Son birkaç gündür Coca-Cola için bir video player web part’ı yazmaya çalışıyorum. Bunun için öncelikle "**flow player**" kullanmak istesem de, Internet Explorer’da çıkarttığı sorunlar yüzünden bundan vazgeçtim ve SharePoint içinde gelen "***Media Web Part***"ı kullanmaya karar verdim. Bu web part'ı sayfamıza dinamik olarak ekleyip istediğimiz video’yu oynatabiliyoruz. Bunun için öncelikle "***mediaplayer.js***" dosyasını sayfamıza eklememiz gerekiyor:
 
+<!--more-->
 ```html
 <script type="text/javascript" src="/_layouts/mediaplayer.js"></script>
 ```

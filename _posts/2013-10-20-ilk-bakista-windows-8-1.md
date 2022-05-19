@@ -1,18 +1,16 @@
 ---
-layout: post
 title: İlk Bakışta Windows 8.1
 date: 2013-10-20 23:59
-author: hasangok
-comments: true
-Tags: [Bilgisayar, Programlar, Windows 8, Windows 8.1]
 ---
-Çok merak ediyormuşsunuz gibi dün [buradan](http://www.hasangok.com.tr/403/windows-8-1-guncellemesi.html) duyurmuştum Windows 8.1'e güncellediğimi. İlk bakışta gözüme çarpanları ve izlenimlerimi sizlere aktarmak için tekrar yazmak istedim.
 
+Çok merak ediyormuşsunuz gibi dün [buradan](/2013/10/19/windows-8-1-guncellemesi.html) duyurmuştum Windows 8.1'e güncellediğimi. İlk bakışta gözüme çarpanları ve izlenimlerimi sizlere aktarmak için tekrar yazmak istedim.
+
+<!--more-->
 1. Güncellemeyi *Windows 8 Mağazası* üzerinden yapmak zorundasınız, herhangi bir *ISO* dosyası bulunmuyor.
 2. İşlem oldukça uzun sürüyor. İndirme işleminizi duraklatıp bilgisayarınızı kapatabilirsiniz. Bilgisayarınızı yeniden açıp tekrar indir dediğinizde, indirme işlemi kaldığı yerden devam ediyor.
 3. *Windows 8*'de yerel hesap kullanıyordum, 8.1 güncellemesinden sonra *Microsoft hesabı* ile oturum açmanız isteniyor. Yerel hesap ile kesinlikle bilgisayarınızı açamıyorsunuz. Daha sonra bir yerel hesap oluşturup Microsoft hesabını kaldırmanız mümkün. Ancak böyle bir şey yapmanın gerekliliği tartışılır.
 4. Başlangıç ekranındaki kutucukların renklendirmesi, ilgili uygulamanın ikonunun rengine göre belirleniyor. Bu da rengarenk bir başlangıç ekranı demek oluyor. Renk değişimini çok hoş buldum, eskisinden çok daha güzel. Buyrun görelim:
-![windows-8.1-desktop](https://raw.githubusercontent.com/hasangok/hasangok.github.io/master/uploads/2013/10/windows-8.1-desktop.png)
+![windows-8.1-desktop](/uploads/2013/10/windows-8.1-desktop.png)
 5. *Windows 8*'de olmayan *başlat tuşu* geri gelmiş, başlangıç ekranını açıyor. Pratikte hiçbir değişiklik yok anlayacağınız. Ancak eski bir dostu görmek de hoş.
 
 Birden fazla monitör kullanıyorsanız, *Windows 8.1* farklı monitörler için farklı ***dpi*** değerleri seçiyor, bazı programlarda ölçekleme problemleri yaşadım. Düzeltmek için şu yolu izleyebilirsiniz:
@@ -32,6 +30,7 @@ Birden fazla monitör kullanıyorsanız, *Windows 8.1* farklı monitörler için
 
 1. Başlangıç ekranına "**regedit**" yazıp *Kayıt Düzenleyicisi*ni açın.
 2. **HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\Current Version\explorer\MyComputer\NameSpace** yolunu izleyin, ve aşağıdaki anahtarları silin.
+
 ```
 {1CF1260C-4DD0-4ebb-811F-33C572699FDE} : *Müzikler* Klasörü
 {374DE290-123F-4565-9164-39C4925E467B} : *İndirilenler* Klasörü
@@ -44,4 +43,5 @@ Birden fazla monitör kullanıyorsanız, *Windows 8.1* farklı monitörler için
 Başlangıç ekranı yerine direk masaüstüne düşmek istiyorsanız *Görev Çubuğu*nda sağ tıklayıp *Özellikler*'i seçtikten sonra, *Gezinti* sekmesinden "*Oturum açtığımda veya bir ekrandaki tüm uygulamaları kapattığımda Başlangıç yerine masaüstüne git*" kutucuğunu işaretleyebilirsiniz. Başlangıç ekranına alışmanız ise tavsiyemdir, doğru organize ettiğinizde daha kullanışlı olduğunu düşünüyorum.
 
 Yukarıdaki problemler ilk an canımı sıksa da kolayca düzeltilebilir olduklarından olumsuz herhangi bir izlenimim yok. Zaten Windows 8'e iyice alışmışken yeniliklerinden de uzak kalmamak gerekir diye düşünüyor ve size de güncel kalmanızı tavsiye ediyorum.
+
 Kalın sağlıcakla...

@@ -1,12 +1,11 @@
 ---
-layout: post
 title: JavaScript ile Query String'e Ulaşmak
 date: 2013-07-31 11:12
-author: hasangok
-comments: true
-Tags: [Javascript, JavaScript, Query String]
 ---
+
 Bu aralar Javascript ile haşır neşir oluyorum. Hayatımda ilk kez kullandığım için her basit şey benim için yeni bir bilgi oluyor. Son çalışmamda URL'deki query string'e ulaşmam gerekiyordu. Bunu C# tarafında şu şekilde yapabildiğimizi biliyordum:
+
+<!--more-->
 ```csharp
 string str = Page.Request.QueryString["q"];
 ```

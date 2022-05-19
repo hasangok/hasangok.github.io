@@ -1,14 +1,12 @@
 ---
-layout: post
 title: İki string arasındaki bilgiyi almak (GetStringInBetween)
 date: 2010-01-23 17:19
-author: hasangok
-comments: true
-categories: [C#, GetStringInBetween, HTML tagları arasındaki bilgiyi alma]
 ---
+
 Bir web sayfasında belli HTML etiketleri arasındaki bir bölümü, ya da elinizdeki herhangi metnin belli bir bölümünü seçip almak isteyebilirsiniz. Örneğin web siteniz için yazdığınız programın başlığını, sitenizden almak istediniz. Ne yapmanız gerekir? Tabi ki, sayfanızdaki &lt;title&gt; ve &lt;/title&gt; arasındaki bilgiye ulaşmanız...
 
-![csharp_logo](https://raw.githubusercontent.com/hasangok/hasangok.github.io/master/uploads/2009/10/csharp_logo.gif)  
+<!--more-->
+![csharp_logo](/uploads/2009/10/csharp_logo.gif)  
 İşte ben de, C# ile HTML kodları arasında gezinip "Böyle bir şeyi nasıl yapabilirim?" sorusuna cevap ararken, küçük bir araştırma sonucu elde ettiğim harika bir metodu paylaşacağım sizlerle: GetStringInBetween...
 
 Bir metindeki belli bir bölüme ya da belli HTML etiketleri arasındaki bilgiye ulaşmak GetStringInBetween ile oldukça basitleşiyor. Öncelikle programınıza eklemeniz gereken metodun kodlarına göz atalım:
@@ -53,8 +51,8 @@ Burada result[0], bize tam olarak istediğimiz bölümdeki stringi veriyor (yuka
 
 Buradaki "false" ifadeleri de, ilk koddan da anlayacağınız üzere, başlangıç ve bitiş stringlerini de alıp almayacağınızı belirliyor. Başlığımızı alırken false yerine true kullanmış olsaydık result[0], title etiketlerini de içerecekti.
 
-Kodun gerçekten başarılı çalıştığına canlı bir örnek olması için, [buradan indirip bakabileceğiniz](http://www.hasangok.com.tr/dosyalar/BaslikOkuyucu.zip) 2 satırlık bir program hazırladım (çalışması için .NET Framework gerekir). Girdiğiniz herhangi bir web adresinin başlığını size gösteriyor :)
+Kodun gerçekten başarılı çalıştığına canlı bir örnek olması için, [buradan indirip bakabileceğiniz](/dosyalar/BaslikOkuyucu.zip) 2 satırlık bir program hazırladım (çalışması için .NET Framework gerekir). Girdiğiniz herhangi bir web adresinin başlığını size gösteriyor 🙂
 
 Ben burada yazıma son veriyorum...  
-Aklınıza takılan bir şey olursa aşağıya yorum bırakabilirsiniz ;)  
+Aklınıza takılan bir şey olursa aşağıya yorum bırakabilirsiniz 😉  
 Sevgiyle kalın, görüşmek üzere...

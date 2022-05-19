@@ -1,15 +1,13 @@
 ---
-layout: post
 title: C'de Koşul İfadesi - if
 date: 2009-10-18 22:22
-author: hasangok
-comments: true
-categories: [C Programlama, c-de koşul, if, if-else, karşılaştırma komutları]
 ---
+
 Değişken tanımlamayı, türlerini, printf ve scanf fonksiyonlarını öğrendikten sonra programlarımıza biraz daha işlev katacak olan seçme komutlarından ve döngülerden bahsedebiliriz.
 
 "if" C dilindeki seçme komutudur. Türkçesi "eğer" olan bu komut, verdiğiniz şarta göre programınızın ne yapacağını belirler. Şart doğruysa yazdığınız işlemleri yapar, değilse bakmadan geçer. Nasıl kullanıldığını ve tam olarak ne işe yaradığını bir örnekle görelim:
 
+<!--more-->
 Kullanıcıdan 3 tamsayı alıp, bunlardan en büyüğünü ekrana yazdıran örnek programımıza bir göz atalım.
 ```c
 #include &lt;stdio.h&gt;
@@ -48,4 +46,4 @@ if(sart&gt;0)
 	.
 }
 ```
-Bu yazı ile "if-else" komutlarını da kısaca tanımış olduk. Bir sonraki yazıda yine seçme komutlarından birisi olan "switch" komutundan bahsedeceğim. Böylece sonunda döngü (loop) komutlarına geçebileceğiz :)
+Bu yazı ile "if-else" komutlarını da kısaca tanımış olduk. Bir sonraki yazıda yine seçme komutlarından birisi olan "switch" komutundan bahsedeceğim. Böylece sonunda döngü (loop) komutlarına geçebileceğiz 🙂

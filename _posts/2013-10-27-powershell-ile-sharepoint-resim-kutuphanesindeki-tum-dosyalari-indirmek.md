@@ -1,13 +1,11 @@
 ---
-layout: post
 title: PowerShell ile SharePoint Resim Kütüphanesindeki Dosyaları İndirmek
 date: 2013-10-27 14:34
-author: hasangok
-comments: true
-Tags: [PowerShell, PowerShell, Resim Kütüphanesi, Sharepoint, SharePoint, Sharepoint 2013]
 ---
-Birkaç *PowerShell* scripti ile ilgilenmek zorunda kaldıktan sonra, böyle bir şey de vardı diyen arkadaşım Selçuk Demir aracılığıyla paylaşıyorum efendim :) *SharePoint 2010* ve *SharePoint 2013* resim kütüphanelerinde deneyip başarılı çalıştığını gördüğümüz bu scriptin ilgili değişkenlerini düzenleyip, kütüphanenizde bulunan tüm resimleri belirlediğiniz bir klasöre indirebiliyorsunuz.
 
+Birkaç *PowerShell* scripti ile ilgilenmek zorunda kaldıktan sonra, böyle bir şey de vardı diyen arkadaşım Selçuk Demir aracılığıyla paylaşıyorum efendim 🙂 *SharePoint 2010* ve *SharePoint 2013* resim kütüphanelerinde deneyip başarılı çalıştığını gördüğümüz bu scriptin ilgili değişkenlerini düzenleyip, kütüphanenizde bulunan tüm resimleri belirlediğiniz bir klasöre indirebiliyorsunuz.
+
+<!--more-->
 ```powershell
 Remove-PSSnapin Microsoft.SharePoint.PowerShell -erroraction SilentlyContinue
 Add-PSSnapin Microsoft.SharePoint.PowerShell -erroraction SilentlyContinue

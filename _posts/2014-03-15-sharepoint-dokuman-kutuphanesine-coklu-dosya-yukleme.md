@@ -1,13 +1,11 @@
 ---
-layout: post
 title: SharePoint Doküman Kütüphanesine Çoklu Dosya Yükleme
 date: 2014-03-15 12:45
-author: hasangok
-comments: true
-Tags: [Çoklu dosya yükleme, Döküman Kütüphanesi, JavaScript, Sharepoint, SharePoint, UploadCtl]
 ---
+
 Son birkaç günümü bu konu üzerinde araştırmalarla geçirdim. İlk başta *FileUpload* kontrolü ile bu isteği gerçekleştirmiş olsam da daha kolay, daha hızlı ve daha sorunsuz bir yöntem olmasından dolayı **UploadCtl** adlı *ActiveX* bişelenini kullanmaya karar verdim. Oluşturduğunuz bir *Visual Web Part*'ın *ASCX* dosyasına aşağıdaki kodları eklemeniz, belirttiğiniz kütüphaneye dosya yüklemenize olanak sağlıyor:
 
+<!--more-->
 ```html
 <script type="text/jscript">
     function DocumentUpload() {
@@ -37,4 +35,5 @@ Son birkaç günümü bu konu üzerinde araştırmalarla geçirdim. İlk başta 
 </asp:Panel>
 ```
 Yukarıda gördüğünüz gizlenmiş input'lar kontrolümüzün nasıl çalışacağını ayarlamış oluyoruz. ***putopts*** ile varolan dosyaların üzerine yazıp yazmayacağımızı, ***destionation*** ile yükleme yapacağımız doküman kütüphanesi veya klasörün yolunu belirleyebiliriz. Tarayıcımızda *ActiveX*'in devre dışı olmaması gerektiğini de unutmayın.
+
 İyi çalışmalar...

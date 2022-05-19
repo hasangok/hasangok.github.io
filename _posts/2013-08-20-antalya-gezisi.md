@@ -1,14 +1,12 @@
 ---
-layout: post
 title: Antalya Gezisi
 date: 2013-08-20 23:20
-author: hasangok
-comments: true
-Tags: [Antalya, Gezelim - Görelim, gezi, Kaleiçi, Konyaaltı]
 ---
+
 Haftasonu *Antalya*'daydım. Sevdiceğimle güzel bir gezi etkinliği yapmış olduk. Geçirdiğimiz üç gün dur durak bilmeden yürüdük, gezebildiğimiz kadar gezmeye eğlenmeye çalıştık. Bu üç günlük süreçte sağda solda gezerken çektiğim fotoğrafları ve birkaç notu sizlerle paylaşmak istedim.
 
-~~fotoğrafları paylaşmaktan vazgeçtim :)~~
+<!--more-->
+~~fotoğrafları paylaşmaktan vazgeçtim 🙂~~
 
 **Notlar:**
 
@@ -23,4 +21,5 @@ Haftasonu *Antalya*'daydım. Sevdiceğimle güzel bir gezi etkinliği yapmış o
 9. Öğlen sıcağında gezmeye çıkmayın buharlaşırsınız. Ben buharlaştım ordan biliyorum.
 
 Yukarıdaki maddelere dikkat ettiğinizde hem çok keyifli hem de maddi olarak fazla zorlanmayacağınız bir gezi imkanı oluşturabilirsiniz.
-Giderseniz şimdiden iyi eğlenceler :)
+
+Giderseniz şimdiden iyi eğlenceler 🙂

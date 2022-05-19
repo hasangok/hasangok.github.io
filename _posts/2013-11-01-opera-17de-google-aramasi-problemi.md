@@ -1,13 +1,11 @@
 ---
-layout: post
 title: Opera 17'de Google Araması Problemi
 date: 2013-11-01 14:18
-author: hasangok
-comments: true
-Tags: [Google Arama, Opera, Opera 17, Programlar]
 ---
+
 İş bilgisayarımı formatlayıp da *Opera*'yı tekrar yüklediğimde yaptığım tüm *Google* aramaları "**google.de**" üzerinden yapılıyordu. *Opera* arayüzünde konu ile ilgili herhangi bir ayar bulamadığımdan *Opera*'nın profil klasörü olan "*C:\Users\hasan.gok\AppData\Roaming\Opera Software\Opera Stable"* klasörüne göz atmak istedim. Evet, tahmin ettiğim gibi içeriği aşağıdaki gibi olan, "***Local State***" adlı bir dosya vardı:
 
+<!--more-->
 ```json
 {
    "browserjs": {

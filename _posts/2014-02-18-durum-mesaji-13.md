@@ -1,9 +1,6 @@
 ---
-layout: post
-title: Durum Mesajı
+title: periler...
 date: 2014-02-18 22:44
-author: hasangok
-comments: true
-Tags: [Durum Mesajları, Durum]
 ---
-İlham perilerinin beni terk ettiği bir dönemdeyim.
+
+>İlham perilerinin beni terk ettiği bir dönemdeyim.

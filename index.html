@@ -1,35 +1,54 @@
 ---
 layout: default
+title: kodlamaya, hayata ve şeylere dair yalan yanlış düşünceler içeren kişisel blog
+description: kodlamaya, hayata ve şeylere dair yalan yanlış düşünceler içeren kişisel blog
 ---
 
-<div class="posts">
-  {% for post in paginator.posts %}
-    <article class="post">
+<section class="listing single">
 
-      <h1><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></h1>
+	<div class="wrap">
 
-      <div class="entry">
-        {{ post.excerpt }}
-      </div>
+		{% for post in paginator.posts %}
 
-      {% if post.excerpt != post.content %}
-        <a href="{{ site.baseurl }}{{ post.url }}">Devamı</a>
-      {% endif %}
-    </article>
-  {% endfor %}
-</div>
+		<article class="listing-post">
 
-<!-- Pagination links -->
-<div class="pagination">
-  {% if paginator.previous_page %}
-    <a href="{{ paginator.previous_page_path }}" class="previous">Önceki</a>
-  {% else %}
-    <span class="previous">Önceki</span>
-  {% endif %}
-  <span class="page_number ">Sayfa: {{ paginator.page }} / {{ paginator.total_pages }}</span>
-  {% if paginator.next_page %}
-    <a href="{{ paginator.next_page_path }}" class="next">Sonraki</a>
-  {% else %}
-    <span class="next ">Sonraki</span>
-  {% endif %}
-</div>
+			<div class="listing-post__header">
+				<h2 class="listing-post__title"><a href="{{ post.url | relative_url }}">{{ post.title }}</a></h2>
+				<p class="listing-post__subtitle">{{ post.date | date_to_long_string }}</p>
+			</div>
+
+			{% if post.featured_image %}
+			<a href="{{ post.url | relative_url }}" class="listing-post__image" style="background-image: url({{ post.featured_image | relative_url }});"></a>
+			{% endif %}
+
+			<div class="listing-post__content">
+				<p>{{ post.excerpt }}</p>
+				<p><a href="{{ post.url | relative_url }}" class="button">Devamını oku</a>
+			</div>
+
+		</article>
+
+		{% endfor %}
+
+	</div>
+
+</section>
+
+{% if paginator.total_pages > 1 %}
+
+<section class="pagination">
+
+	{% if paginator.previous_page %}
+	<div class="pagination__prev">
+		<a href="{{ paginator.previous_page_path | relative_url }}" class="button button--large"><i class="fa fa-angle-left" aria-hidden="true"></i> <span>Önceki Sayfa</span></a>
+	</div>
+	{% endif %}
+	{% if paginator.next_page %}
+	<div class="pagination__next">
+		<a href="{{ paginator.next_page_path | relative_url }}" class="button button--large"><span>Sonraki Sayfa</span> <i class="fa fa-angle-right" aria-hidden="true"></i></a>
+	</div>
+	{% endif %}
+
+</section>
+
+{% endif %}

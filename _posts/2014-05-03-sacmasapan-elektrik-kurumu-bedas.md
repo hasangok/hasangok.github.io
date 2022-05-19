@@ -1,12 +1,11 @@
 ---
-layout: post
 title: Saçmasapan Elektrik Kurumu - BEDAŞ
 date: 2014-05-03 13:02
-author: hasangok
-comments: true
-Tags: [BEDAŞ, Elektrik, Genel]
 ---
+
 Efendim, İstanbul'da yaşamaya başlayalı iki hafta olsa da ancak başımı sokacak bir ev bulabildim. Haliyle elektrik, su ve doğal gaz aboneliklerini üzerime almam gerekti. Su ve doğal gaz aboneliklerini başlatabilmiş olsam da (ki hiç kolay olmadı), elektrik için BEDAŞ'la akılalmaz bir saçmalık yaşadım.
+
+<!--more-->
 Elektrik aboneliğini üzerime almak için başvurduğumda önceki kiracıdan kalan, 4 aydır ödenmemiş 250 liralık borcu benden tahsil etmek istediler. Kendilerine borcun bana ait olmadığını, beni bağlamadığını ve aboneliğimi başlatmada bir engel teşkil etmemesi gerektiğini söylediğimde bu kez de ev sahibiniz ödesin dediler. Ben de tekrardan kendilerine Elektrik Piyasası Müşteri Hizmetleri yönetmeliğinin 24. maddesini hatırlattım. Bu madde aynen şu şekilde:
 
 > Aynı kullanım yerine ait başka müşterilerin önceki dönemlere ilişkin tüketimlerinden kaynaklanan borçları, yeni müşterinin üstlenmesi talep edilemez.

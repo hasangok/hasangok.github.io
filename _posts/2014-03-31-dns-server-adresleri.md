@@ -1,12 +1,11 @@
 ---
-layout: post
 title: DNS Server Adresleri
 date: 2014-03-31 17:57
-author: hasangok
-comments: true
-Tags: [Bilgisayar, DNS Server, Genel]
 ---
+
 Son engellemelerden sonra hiç bir siteye giremez, çalışamaz, işimize gücümüze bakamaz olduk. DNS değiştirip bir nebze olsun rahatlamak için aşağıdaki listeyi kullanabilirsiniz. Çalışmayanları bildirirseniz sevinirim, listeden kaldırayım.
+
+<!--more-->
 
 | **Provider**         | **Primary DNS Server** | **Secondary DNS Server**  |
 | -------------------- | ---------------------- | --------------------------|
